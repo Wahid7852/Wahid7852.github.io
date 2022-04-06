@@ -1,66 +1,58 @@
-import ProjectOne from "../images/project-one.png";
+import { Component } from "react";
+import ProjectsData from "./ProjectsData";
 
-const Projects = () => {
-  function ReavealProject() {
-    const HiddenSnippet = document.querySelector(".project-snippet");
-    const ProjectImg = document.querySelector(".project-icon");
-    HiddenSnippet.classList.add("show-snippet");
-    ProjectImg.classList.add("transform-icon");
+class Projects extends Component {
+  ReavealProject(event) {
+    event.stopPropagation();
+    const HiddenSnippet = document.querySelectorAll(".project-snippet");
+    HiddenSnippet.forEach(function (target) {
+      target.classList.add("show-snippet");
+    });
   }
-  function HideProject() {
-    const HiddenSnippet = document.querySelector(".project-snippet");
-    const ProjectImg = document.querySelector(".project-icon");
-    HiddenSnippet.classList.remove("show-snippet");
-    ProjectImg.classList.remove("transform-icon");
+  HideProject(event) {
+    event.stopPropagation();
+    const HiddenSnippet = document.querySelectorAll(".project-snippet");
+    HiddenSnippet.forEach(function (target) {
+      target.classList.remove("show-snippet");
+    });
   }
-  return (
+  render() {
+    return (
       <section className="portfolio-grid">
-        <section className="project">
-          <a
-            href="https://catherineisonline.github.io/pizza-time-with-react/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <section className="project-icon" onMouseEnter={ReavealProject}>
-              <img src={ProjectOne} alt="" className="project-img"></img>
-            </section>
-            <section className="project-snippet" onMouseLeave={HideProject}>
-              <section className="stack-used white-text">
-                <p>React</p>
-                <p>HTML5</p>
-                <p>CSS</p>
+        {ProjectsData.map((project, index) => (
+          <section className="project">
+            <a
+              href="https://catherineisonline.github.io/pizza-time-with-react/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <section
+                className="project-icon"
+                onMouseEnter={this.ReavealProject}
+              >
+                <img
+                  key={index}
+                  src={project.img}
+                  alt=""
+                  className="project-img"
+                ></img>
               </section>
-            </section>
-          </a>
-        </section>
-        <section className="project">
-          <section className="project-icon">
-            <img src="" alt=""></img>
+              <section
+                className="project-snippet"
+                onMouseLeave={this.HideProject}
+              >
+                <section className="stack-used white-text">
+                  <p key={index}>{project.stackOne}</p>
+                  <p key={index}>{project.stackTwo}</p>
+                  <p key={index}>{project.stackThree}</p>
+                </section>
+              </section>
+            </a>
           </section>
-          <section className="project-snippet">
-            <h3>Travel With Catherine</h3>
-            <section className="stack-used">
-              <p>React</p>
-              <p>HTML5</p>
-              <p>Tailwind</p>
-            </section>
-          </section>
-        </section>
-        <section className="project">
-          <section className="project-icon">
-            <img src="" alt=""></img>
-          </section>
-          <section className="project-snippet">
-            <h3>Pizza Time</h3>
-            <section className="stack-used">
-              <p>React</p>
-              <p>HTML5</p>
-              <p>Tailwind</p>
-            </section>
-          </section>
-        </section>
+        ))}
       </section>
-  );
-};
+    );
+  }
+}
 
 export default Projects;

@@ -65,7 +65,7 @@ const SideMenu = () => {
             Main
           </NavLink>
           <NavLink
-            to="/catherine-mitagvaria/about"
+            to="/personal-portfolio/about"
             className="gray-text"
             onClick={() => {
               ResetLocation();

@@ -1,3 +1,6 @@
+import ContactForm from "./ContactForm";
+
+
 const Contact = () => {
   return (
     <article className="contact">
@@ -10,7 +13,9 @@ const Contact = () => {
         </p>
         <form></form>
       </section>
-      <section></section>
+      <section>
+        <ContactForm />
+      </section>
     </article>
   );
 };
