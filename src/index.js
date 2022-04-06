@@ -18,10 +18,10 @@ root.render(
   <Router>
     <SideMenu />
     <Routes>
-      <Route path="/catherine-mitagvaria" element={<Mainpage />} />
-      <Route path="/catherine-mitagvaria/about" element={<About />} />
-      <Route path="/catherine-mitagvaria/portfolio" element={<Portfolio />} />
-      <Route path="/catherine-mitagvaria/contact" element={<Contact />} />
+      <Route path="/personal-portfolio" element={<Mainpage />} />
+      <Route path="/personal-portfolio/about" element={<About />} />
+      <Route path="/personal-portfolio/portfolio" element={<Portfolio />} />
+      <Route path="/personal-portfolio/contact" element={<Contact />} />
     </Routes>
   </Router>
 );

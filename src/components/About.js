@@ -14,7 +14,7 @@ const About = () => {
           development, currently JavaScript and its frameworks. My latest job
           included social media and management however I decided to give it a go
           and dive into web developement field. I am looking forward to working
-          on real projects!s
+          on real projects!
         </p>
       </section>
       <section className="about-cotainer-2">

@@ -44,7 +44,7 @@ const SideMenu = () => {
       </section>
       <section className="main-menu">
         <Link
-          to="/catherine-mitagvaria"
+          to="/personal-portfolio"
           className="logo-section"
           onClick={() => {
             ResetLocation();
@@ -55,7 +55,7 @@ const SideMenu = () => {
         </Link>
         <section className="menu-links">
           <NavLink
-            to="/catherine-mitagvaria"
+            to="/personal-portfolio"
             className=" gray-text "
             onClick={() => {
               ResetLocation();
@@ -75,7 +75,7 @@ const SideMenu = () => {
             About
           </NavLink>
           <NavLink
-            to="/catherine-mitagvaria/portfolio"
+            to="/personal-portfolio/portfolio"
             className="gray-text"
             onClick={() => {
               ResetLocation();
@@ -85,7 +85,7 @@ const SideMenu = () => {
             Portfolio
           </NavLink>
           <NavLink
-            to="/catherine-mitagvaria/contact"
+            to="/personal-portfolio/contact"
             className="gray-text"
             onClick={() => {
               ResetLocation();
