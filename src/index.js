@@ -1,17 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+import "./Styles.sass";
+//Components
+import Mainpage from "./components/Mainpage";
+import SideMenu from "./components/SideMenu";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+
+import reportWebVitals from "./reportWebVitals";
+
+const container = document.getElementById("root");
+const root = createRoot(container);
+root.render(
+  <Router>
+    <SideMenu />
+    <Routes>
+      <Route path="/catherine-mitagvaria" element={<Mainpage />} />
+      <Route path="/catherine-mitagvaria/about" element={<About />} />
+      <Route path="/catherine-mitagvaria/portfolio" element={<Portfolio />} />
+      <Route path="/catherine-mitagvaria/contact" element={<Contact />} />
+    </Routes>
+  </Router>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
