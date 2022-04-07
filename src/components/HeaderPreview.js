@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../Styles.sass";
 
-const Header = () => {
+const HeaderPreview = () => {
   return (
     <article className="header">
       <h1 className="header-font white-text">
@@ -17,4 +17,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderPreview;

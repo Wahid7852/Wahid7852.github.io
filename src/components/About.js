@@ -1,4 +1,4 @@
-const AboutPreview = () => {
+const About = () => {
   return (
     <article className="about">
       <section>
@@ -15,11 +15,6 @@ const AboutPreview = () => {
       <section className="about-cotainer-2">
         <h2 className="title-font  pink-text">My Stack</h2>
         <section className="stack-section">
-        {/* <Carousel
-        autoPlay="true"
-        interval="2000"
-        infiniteLoop="true"
-        > */}
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
             alt="css3"
@@ -71,4 +66,4 @@ const AboutPreview = () => {
   );
 };
 
-export default AboutPreview;
+export default About;

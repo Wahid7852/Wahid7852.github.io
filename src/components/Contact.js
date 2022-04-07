@@ -1,7 +1,7 @@
 import ContactForm from "./ContactForm";
 
 
-const ContactPreview = () => {
+const Contact = () => {
   return (
     <article className="contact">
       <section>
@@ -20,4 +20,4 @@ const ContactPreview = () => {
   );
 };
 
-export default ContactPreview;
+export default Contact;

@@ -1,7 +1,7 @@
 import Projects from "./Projects";
 import { Link } from "react-router-dom";
 
-const PortfolioPreview = () => {
+const Portfolio = () => {
   return (
     <article className="portfolio">
       <section className="portfolio-text">
@@ -36,4 +36,4 @@ const PortfolioPreview = () => {
   );
 };
 
-export default PortfolioPreview;
+export default Portfolio;
