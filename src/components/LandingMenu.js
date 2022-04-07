@@ -42,6 +42,7 @@ const SideMenu = () => {
           }}
         ></img>
       </section>
+ 
       <section className="main-menu">
         <Link
           to="/personal-portfolio"
@@ -53,6 +54,7 @@ const SideMenu = () => {
         >
           <img src={IconBlack} alt=""></img>
         </Link>
+     
         <section className="menu-links">
           <NavLink
             to="/personal-portfolio"
@@ -117,7 +119,10 @@ const SideMenu = () => {
           >
             <img src={Codepen} alt="codepen" />
           </a>
+          
         </section>
+        <section className="menu-email"><span className="myemail-txt">&lt; / ekaterine.jpg@gmail.com &gt;</span></section> 
+      
       </section>
     </article>
   );

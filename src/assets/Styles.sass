@@ -65,7 +65,7 @@
         color: base.$gray
         font-family: base.$body-font
         font-size: 1.5rem
-        height: 50%
+        height: 40%
     .social-media
         display: flex
         flex-direction: row
@@ -76,6 +76,8 @@
             width: 1.5rem
             height: 1.5rem
             max-width: 100%
+    .menu-email
+        padding-top: 2rem
     @media (min-width: base.$lg-width)
         .main-menu
             display: flex
@@ -312,7 +314,7 @@
     @media (min-width: base.$lg-width)
         grid-template-columns: repeat(4, 1fr)
 //CONTACT 
-.contact
+.contact, .contact-main
     padding: 1.5rem
     display: flex
     flex-direction: column
@@ -329,7 +331,7 @@
     @media (min-width: base.$lg-width)
         width: 70%
 //CONTACT FORM
-.contact-form
+.contact-form, .contact-main
     display: flex
     flex-direction: column
     gap: 2rem
@@ -374,7 +376,29 @@
         position: absolute
         color: base.$pinkish
         opacity: 0.7
-
+.contact-main
+    grid-column: span 3
+    .sendemail-btn
+        background-color: transparent
+        border-width: 1px
+        border-color: base.$white
+        color: base.$white
+        border-style: solid
+        letter-spaceing: 1px
+        padding: 1rem
+        letter-spacing: 1px
+        width: 10rem
+        max-width: 50%
+        text-align: center
+        font-family: base.$body-font
+        opacity: 0.9
+        background: linear-gradient(to right, base.$pinkish 50%, transparent 50%)
+        background-size: 200% 100%
+        background-position: right bottom
+        transition: all 0.4s ease
+.myemail-txt
+    color: base.$white
+    opacity: 0.5
 //HOVER
 @media (hover:hover)
 .header
@@ -398,6 +422,11 @@
         transition: all 0.4s ease
 .about-main
     .download-btn:hover
+        background-position: left bottom
+        border-color: transparent
+        transition: all 0.4s ease
+.contact-main
+    .sendemail-btn:hover
         background-position: left bottom
         border-color: transparent
         transition: all 0.4s ease
