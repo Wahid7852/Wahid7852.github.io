@@ -1,4 +1,5 @@
 import Projects from "./Projects";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -23,6 +24,14 @@ const Portfolio = () => {
         </p>
       </section>
       <Projects />
+      <section>
+        <Link
+          className="more-projects-btn pink-text"
+          to="/catherine-mitagvaria/portfolio"
+        >
+          More projects
+        </Link>
+      </section>
     </article>
   );
 };

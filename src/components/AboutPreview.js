@@ -13,7 +13,7 @@ const About = () => {
         </p>
       </section>
       <section className="about-cotainer-2">
-        <h2 className="title-font  pink-text">Stack &#38; Technologies</h2>
+        <h2 className="title-font  pink-text">My Stack</h2>
         <section className="stack-section">
         {/* <Carousel
         autoPlay="true"

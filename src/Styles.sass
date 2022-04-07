@@ -1,10 +1,18 @@
+
 @use "base"
+#root
+    position: relative
+    @media (min-width: base.$lg-width)
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
 //MAIN PAGE
 .main-page
     display: flex
     flex-direction: column
     gap: 4rem
     margin-top: 20%
+    @media (min-width: base.$lg-width)
+        grid-column: span 3
 //SIDE MENU
 .side-menu
     display: flex
@@ -12,6 +20,7 @@
     align-items: flex-end
     background-color: base.$black-bg
     height: 100%
+    grid-column: span 1
 .side-menu
     .logo-section
         img
@@ -67,13 +76,31 @@
             width: 1.5rem
             height: 1.5rem
             max-width: 100%
+    @media (min-width: base.$lg-width)
+        .main-menu
+            display: flex
+            position: fixed
+            top: 0
+            left: 0
+            right: 0
+            flex-direction: column
+            align-items: center
+            width: 20%
+            z-index: 3
+        .ham-menu
+            display: none
+        img
+            width: 70%
+            object-fit: contain
 //HEADER
 .header
     padding: 1.5rem
     display: flex
     flex-direction: column
     h1
-        font-size: 3rem
+        font-size: 4rem
+        em
+            letter-spacing: 2px
     a
         background-color: transparent
         border-width: 1px
@@ -82,7 +109,7 @@
         letter-spaceing: 1px
         padding: 1rem
         letter-spacing: 1px
-        width: 10rem
+        width: 15rem
         max-width: 50%
         text-align: center
         font-family: base.$body-font
@@ -91,6 +118,15 @@
         background-size: 200% 100%
         background-position: right bottom
         transition: all 0.4s ease
+
+    @media (min-width: base.$sm-width)
+        h1
+            font-size: 5rem
+        p
+            font-size: 1.5rem
+        a
+            font-size: 1.5rem
+
 //ABOUT
 .about
     padding: 1.5rem
@@ -102,7 +138,14 @@
         letter-spacing: 1px
     p
         font-size: 1.5rem
-
+    @media (min-width: base.$sm-width)
+        h2
+            font-size: 4rem
+    @media (min-width: base.$lg-width)
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        p
+            margin-top: 2rem
 //STACK SECTION
 .stack-section
     width: 100%
@@ -117,11 +160,17 @@
         max-width: 100%
         cursor: pointer
         transition: all 0.4s ease
+    @media (min-width: base.$sm-width)
+        grid-template-columns: repeat(4, 1fr)
+        gap: 1.5rem
+    @media (min-width: base.$lg-width)
+        grid-template-columns: repeat(3, 1fr)
 //PORTFOLIO
 .portfolio
     display: flex
     flex-direction: column
     gap: 2rem
+    align-items: center
     .portfolio-text
         padding: 1.5rem
     h2
@@ -129,19 +178,38 @@
         letter-spacing: 1px
     p
         font-size: 1.5rem
+    .more-projects-btn
+        background-color: transparent
+        border-width: 1px
+        border-color: base.$pinkish
+        border-style: solid
+        letter-spaceing: 1px
+        padding: 1rem
+        letter-spacing: 1px
+        width: 15rem
+        max-width: 50%
+        text-align: center
+        font-family: base.$body-font
+        opacity: 0.9
+        background: linear-gradient(to right, base.$white 50%, transparent 50%)
+        background-size: 200% 100%
+        background-position: right bottom
+        transition: all 0.4s ease
+    @media (min-width: base.$sm-width)
+        .portfolio-text
+            padding: 2rem
+        h2
+            font-size: 4rem
 //PORTFOLIO GRID
 .portfolio-grid
     max-width: 100%
-    padding: 0
     display: grid
     grid-template-columns: repeat(2, 1fr)
-
     .project
         cursor: pointer
         position: relative
     .project-icon
         position: relative
-        height: 15rem
         width: 100%
         opacity: 0.7
     .project-img
@@ -181,6 +249,9 @@
             font-size: 1rem
             color: base.$pinkish
             font-weight: bold
+
+    @media (min-width: base.$lg-width)
+        grid-template-columns: repeat(4, 1fr)
 //CONTACT 
 .contact
     padding: 1.5rem
@@ -192,6 +263,12 @@
         letter-spacing: 1px
     p
         font-size: 1.5rem
+    @media (min-width: base.$sm-width)
+        padding: 2rem
+        h2
+            font-size: 4rem
+    @media (min-width: base.$lg-width)
+        width: 70%
 //CONTACT FORM
 .contact-form
     display: flex
@@ -255,30 +332,8 @@
     img:hover
         transform: scale(2)
         transition: all 0.4s ease
-//CAROUSEL
-// .carousel-root
-//     width: 80%
-//     z-index: -1
-// .carousel-slider
-//     width: 100% !important   
-// .carousel .slide img
-//     width: 2rem
-// .carousel-status, .control-arrow
-//     display: none
-// .control-dots
-//     width: 50%
-// .thumbs
-//     display: flex
-//     margin: 0
-//     padding: 0
-//     width: 100%
-//     display: none
-// .thumb
-//     width: 100%
-// .control-dots
-//     display: flex
-//     flex-direction: row
-//     gap: 5px
-// .control-dots .dot
-//     padding: 4px
-//     width: 5px
+.portfolio
+    .more-projects-btn:hover
+        background-position: left bottom
+        border-color: transparent
+        transition: all 0.4s ease

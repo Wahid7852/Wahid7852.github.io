@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./Styles.sass";
 //Components
-import Mainpage from "./components/Mainpage";
-import SideMenu from "./components/SideMenu";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import Landing from "./components/Landing";
+import LandingMenu from "./components/LandingMenu";
+import AboutPreview from "./components/AboutPreview";
+import PortfolioPreview from "./components/PortfolioPreview";
+import ContactPreview from "./components/ContactPreview";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -16,12 +16,15 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
   <Router>
-    <SideMenu />
+    <LandingMenu />
     <Routes>
-      <Route path="/personal-portfolio" element={<Mainpage />} />
-      <Route path="/personal-portfolio/about" element={<About />} />
-      <Route path="/personal-portfolio/portfolio" element={<Portfolio />} />
-      <Route path="/personal-portfolio/contact" element={<Contact />} />
+      <Route path="/personal-portfolio" element={<Landing />} />
+      <Route path="/personal-portfolio/about" element={<AboutPreview />} />
+      <Route
+        path="/personal-portfolio/portfolio"
+        element={<PortfolioPreview />}
+      />
+      <Route path="/personal-portfolio/contact" element={<ContactPreview />} />
     </Routes>
   </Router>
 );
