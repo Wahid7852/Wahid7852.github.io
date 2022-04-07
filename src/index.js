@@ -2,8 +2,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //Styles
-import "./Styles.sass";
-//Components
+import "./assets/Styles.sass";
+//Components/
 import Landing from "./components/Landing";
 import LandingMenu from "./components/LandingMenu";
 import About from "./components/About";

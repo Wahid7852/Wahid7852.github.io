@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../Styles.sass";
+// import "../Styles.sass";
 
 const HeaderPreview = () => {
   return (
