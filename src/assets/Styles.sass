@@ -158,6 +158,7 @@
     p
         font-size: 1.5rem
     @media (min-width: base.$sm-width)
+
         h2
             font-size: 4rem
     @media (min-width: base.$lg-width)
@@ -165,6 +166,11 @@
         grid-template-columns: repeat(2, 1fr)
         p
             margin-top: 2rem
+.about-main
+    display: flex
+    flex-direction: column
+    padding: 2rem
+    grid-column: span 3
 
 //STACK SECTION
 .stack-section
@@ -183,6 +189,7 @@
     @media (min-width: base.$sm-width)
         grid-template-columns: repeat(4, 1fr)
         gap: 1.5rem
+
     @media (min-width: base.$lg-width)
         grid-template-columns: repeat(3, 1fr)
 //WORK EXPERIENCE
