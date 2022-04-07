@@ -1,6 +1,8 @@
+import ExperienceData from "./ExperienceData";
+
 const About = () => {
   return (
-    <article className="about">
+    <article className="about-main">
       <section>
         <h2 className="title-font pink-text">About Me</h2>
         <p className="white-text">
@@ -59,7 +61,37 @@ const About = () => {
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
             alt="figma"
           ></img>
-          {/* </Carousel> */}
+        </section>
+      </section>
+      <section>
+        <h2 className="title-font  pink-text">Work Experience</h2>
+        <section className="work-experience">
+          {ExperienceData.map((info) => (
+            <section>
+              <section>
+                <h3>{info.jobtitle}</h3>
+              </section>
+              <section className="section-2">
+                <p>{info.companyname}</p>
+                <p>{info.worktype}</p>
+              </section>
+              <section>
+                <p>{info.duration}</p>
+              </section>
+              <section>
+                <p>{info.location}</p>
+              </section>
+              <section>
+           
+                  <ul className="responsibilities">
+                  {info.responsibility.map((data) => (
+                    <li>{data}</li>
+                    ))}
+                  </ul>
+          
+              </section>
+            </section>
+          ))}
         </section>
       </section>
     </article>
