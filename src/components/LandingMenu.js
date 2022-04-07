@@ -73,6 +73,14 @@ const SideMenu = () => {
               ResetLocation();
               HideMenu();
             }}
+            style={({ isActive }) =>
+                isActive
+                  ? {
+                      textDecoration: "none",
+                      color: "#fd1056",
+                    }
+                  : {}
+              }
           >
             About
           </NavLink>
@@ -83,6 +91,14 @@ const SideMenu = () => {
               ResetLocation();
               HideMenu();
             }}
+            style={({ isActive }) =>
+                isActive
+                  ? {
+                      textDecoration: "none",
+                      color: "#fd1056",
+                    }
+                  : {}
+              }
           >
             Portfolio
           </NavLink>
@@ -93,6 +109,14 @@ const SideMenu = () => {
               ResetLocation();
               HideMenu();
             }}
+            style={({ isActive }) =>
+                isActive
+                  ? {
+                      textDecoration: "none",
+                      color: "#fd1056",
+                    }
+                  : {}
+              }
           >
             Contact
           </NavLink>
@@ -116,6 +140,7 @@ const SideMenu = () => {
             href="https://codepen.io/catherineisonline"
             target="_blank"
             rel="noreferrer"
+
           >
             <img src={Codepen} alt="codepen" />
           </a>

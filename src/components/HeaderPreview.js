@@ -10,7 +10,7 @@ const HeaderPreview = () => {
         <br></br>aspiring web developer
       </h1>
       <p className="gray-text">Front End Development</p>
-      <Link className="pink-text" to="/catherine-mitagvaria/portfolio">
+      <Link className="pink-text" to="/personal-portfolio/portfolio">
         Check my work
       </Link>
     </article>

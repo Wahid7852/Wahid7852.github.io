@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
-    <article className="portfolio">
+    <article className="portfolio-main">
       <section className="portfolio-text">
         <h2 className="title-font pink-text">My Portfolio</h2>
         <p className="white-text">
@@ -24,14 +24,14 @@ const Portfolio = () => {
         </p>
       </section>
       <Projects />
-      <section>
+      {/* <section>
         <Link
           className="more-projects-btn pink-text"
           to="/catherine-mitagvaria/portfolio"
         >
           More projects
         </Link>
-      </section>
+      </section> */}
     </article>
   );
 };
