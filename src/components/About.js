@@ -1,4 +1,4 @@
-import ExperienceData from "./ExperienceData";
+import { ExperienceData, EducationData } from "./ExperienceData";
 
 const About = () => {
   return (
@@ -82,13 +82,56 @@ const About = () => {
                 <p>{info.location}</p>
               </section>
               <section>
-           
-                  <ul className="responsibilities">
+                <ul className="responsibilities">
                   {info.responsibility.map((data) => (
                     <li>{data}</li>
-                    ))}
-                  </ul>
-          
+                  ))}
+                </ul>
+              </section>
+            </section>
+          ))}
+        </section>
+      </section>
+      <section>
+        <h2 className="title-font  pink-text">Education</h2>
+        <section className="education">
+          {EducationData.map((info) => (
+            <section>
+              <section>
+                <h3>{info.name}</h3>
+                <p>{info.status}</p>
+                <p>{info.year}</p>
+              </section>
+            </section>
+          ))}
+        </section>
+      </section>
+      <section>
+        <h2 className="title-font  pink-text">Languages</h2>
+        <section className="languages">
+          <section>
+            <section>
+              <h3>English</h3>
+              <p>Professional working proficiency</p>
+              <h3>Georgian</h3>
+              <p>Native or bilingual proficiency</p>
+              <h3>Russian</h3>
+              <p>Limited working proficiency</p>
+              <h3>German</h3>
+              <p>Elementary proficiency</p>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section>
+        <h2 className="title-font  pink-text">Certifications</h2>
+        <section className="education">
+          {EducationData.map((info) => (
+            <section>
+              <section>
+                <h3>{info.name}</h3>
+                <p>{info.status}</p>
+                <p>{info.year}</p>
               </section>
             </section>
           ))}

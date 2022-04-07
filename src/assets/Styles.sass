@@ -166,7 +166,7 @@
     @media (min-width: base.$lg-width)
         grid-template-columns: repeat(3, 1fr)
 //WORK EXPERIENCE
-.work-experience
+.work-experience, .education, .languages
     margin-top: 5%
     display: grid
     grid-template-columns: 1fr
@@ -180,7 +180,7 @@
         font-size: 1.5rem
     p
         font-size: 0.9rem
-    .responsibilities
+    .responsibilities, .education, .languages
         font-size: 1rem
         padding: 1rem
 
@@ -189,8 +189,10 @@
             line-height: 1.5rem
             text-align: left
             font-weight: 100
-            ::marker
-                padding: 1rem
+        li::marker
+            content: counter(list-item) " › "
+            color: base.$pinkish
+            animation: color 0.3s ease-in-out infinite
 //PORTFOLIO
 .portfolio
     display: flex
