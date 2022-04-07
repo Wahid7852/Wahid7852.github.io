@@ -1,4 +1,8 @@
-import { ExperienceData, EducationData } from "./ExperienceData";
+import {
+  ExperienceData,
+  EducationData,
+  CertificationData,
+} from "./ExperienceData";
 
 const About = () => {
   return (
@@ -13,6 +17,9 @@ const About = () => {
           and dive into web developement field. I am looking forward to working
           on real projects!
         </p>
+      </section>
+      <section>
+        <button class="download-btn">Download Resume</button>
       </section>
       <section className="about-cotainer-2">
         <h2 className="title-font  pink-text">My Stack</h2>
@@ -124,14 +131,20 @@ const About = () => {
         </section>
       </section>
       <section>
+        <button class="download-btn">Download Resume</button>
+      </section>
+      <section>
         <h2 className="title-font  pink-text">Certifications</h2>
-        <section className="education">
-          {EducationData.map((info) => (
+        <section className="certification">
+          {CertificationData.map((info) => (
             <section>
               <section>
                 <h3>{info.name}</h3>
-                <p>{info.status}</p>
-                <p>{info.year}</p>
+                <p>{info.source}</p>
+                <p>{info.date}</p>
+                <a href={info.creditUrl} target="_blank" rel="noreferrer">
+                  Show credential
+                </a>
               </section>
             </section>
           ))}
