@@ -1,4 +1,5 @@
 import Projects from "./Projects";
+import Footer from "./Footer";
 
 const Portfolio = () => {
   document.title ="Portfolio | Catherine Mitagvaria"; 
@@ -24,14 +25,7 @@ const Portfolio = () => {
         </p>
       </section>
       <Projects />
-      {/* <section>
-        <Link
-          className="more-projects-btn pink-text"
-          to="/catherine-mitagvaria/portfolio"
-        >
-          More projects
-        </Link>
-      </section> */}
+     <Footer />
     </article>
   );
 };

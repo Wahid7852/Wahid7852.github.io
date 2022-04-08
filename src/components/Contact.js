@@ -1,4 +1,5 @@
 import ContactForm from "./ContactForm";
+import Footer from "./Footer";
 
 const Contact = () => {
   document.title ="Contact | Catherine Mitagvaria"; 
@@ -35,6 +36,7 @@ const Contact = () => {
       <section>
         <ContactForm />
       </section>
+      <Footer />
     </article>
   );
 };

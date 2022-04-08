@@ -181,11 +181,23 @@
 
 //STACK SECTION
 .stack-section
-    width: 100%
-    margin-top: 2rem
+    // width: 100%
     display: grid
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(2, 1fr)
     gap: 1rem
+    margin-top: 5%
+    padding: 2rem
+
+    li
+        color: base.$white
+        font-family: base.$body-font
+        line-height: 1.5rem
+        text-align: left
+        font-weight: 100
+    li::marker
+        content: counter(list-item) " › "
+        color: base.$pinkish
+        animation: color 0.3s ease-in-out infinite
 
 .stack-section
     img
@@ -194,11 +206,7 @@
         cursor: pointer
         transition: all 0.4s ease
     @media (min-width: base.$sm-width)
-        grid-template-columns: repeat(4, 1fr)
         gap: 1.5rem
-
-    @media (min-width: base.$lg-width)
-        grid-template-columns: repeat(3, 1fr)
 //WORK EXPERIENCE
 .work-experience, .education, .languages, .certification
     margin-top: 5%
@@ -332,6 +340,24 @@
         letter-spacing: 1px
     p
         font-size: 1.5rem
+    .sendemail-btn
+        background-color: transparent
+        border-width: 1px
+        border-color: base.$white
+        color: base.$white
+        border-style: solid
+        letter-spacing: 1px
+        padding: 1rem
+        letter-spacing: 1px
+        width: 10rem
+        max-width: 50%
+        text-align: center
+        font-family: base.$body-font
+        opacity: 0.9
+        background: linear-gradient(to right, base.$pinkish 50%, transparent 50%)
+        background-size: 200% 100%
+        background-position: right bottom
+        transition: all 0.4s ease
     @media (min-width: base.$sm-width)
         padding: 2rem
         h2
@@ -384,31 +410,23 @@
         position: absolute
         color: base.$pinkish
         opacity: 0.7
+//CONTACT MAIN
 .contact-main
     grid-column: span 3
-    .sendemail-btn
-        background-color: transparent
-        border-width: 1px
-        border-color: base.$white
-        color: base.$white
-        border-style: solid
-        letter-spacing: 1px
-        padding: 1rem
-        letter-spacing: 1px
-        width: 10rem
-        max-width: 50%
-        text-align: center
-        font-family: base.$body-font
-        opacity: 0.9
-        background: linear-gradient(to right, base.$pinkish 50%, transparent 50%)
-        background-size: 200% 100%
-        background-position: right bottom
-        transition: all 0.4s ease
 .myemail-txt
     color: base.$white
     opacity: 0.5
-    font-size: 1rem
-    letter-spacing: 1px
+    font-size: 0.9rem
+//FOOTER
+.footer
+    padding: 6rem 1rem
+    justify-content: center
+    display: flex
+    flex-direction: row
+    width: 100%
+    a
+        font-family: base.$codingfont
+        color: base.$gray
 //HOVER
 @media (hover:hover)
 .header
@@ -421,10 +439,6 @@
         background-position: left bottom
         border-color: transparent
         transition: all 0.4s ease
-.stack-section
-    img:hover
-        transform: scale(2)
-        transition: all 0.4s ease
 .portfolio
     .more-projects-btn:hover
         background-position: left bottom
@@ -435,7 +449,7 @@
         background-position: left bottom
         border-color: transparent
         transition: all 0.4s ease
-.contact-main
+.contact-main, .contact
     .sendemail-btn:hover
         background-position: left bottom
         border-color: transparent
