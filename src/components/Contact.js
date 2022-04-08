@@ -1,6 +1,7 @@
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
+  document.title ="Contact | Catherine Mitagvaria"; 
   function sendEmai() {
     window.open(
       "mailto:ekaterine.jpg@gmail.com?subject=SendMail&body=Description"

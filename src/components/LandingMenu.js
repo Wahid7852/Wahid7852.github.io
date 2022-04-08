@@ -7,6 +7,7 @@ import Github from "../images/github-pink.svg";
 import Codepen from "../images/codepen-pink.svg";
 
 const SideMenu = () => {
+  document.title ="Catherine Mitagvaria | Personal Portfolio"; 
   function ToggleMenu() {
     const Hiddenmenu = document.querySelector(".main-menu");
     Hiddenmenu.classList.toggle("active-menu");

@@ -1,7 +1,7 @@
 import Projects from "./Projects";
-import { Link } from "react-router-dom";
 
 const Portfolio = () => {
+  document.title ="Portfolio | Catherine Mitagvaria"; 
   return (
     <article className="portfolio-main">
       <section className="portfolio-text">

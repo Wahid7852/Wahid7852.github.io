@@ -108,7 +108,7 @@
         border-width: 1px
         border-color: base.$pinkish
         border-style: solid
-        letter-spaceing: 1px
+        letter-spacing: 1px
         padding: 1rem
         letter-spacing: 1px
         width: 15rem
@@ -136,16 +136,21 @@
     flex-direction: column
     gap: 2rem
     .download-btn
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        gap: 1rem
+        cursor: pointer
         background-color: transparent
         border-width: 1px
         border-color: base.$pinkish
         border-style: solid
-        letter-spaceing: 1px
-        padding: 1rem
         letter-spacing: 1px
-        width: 15rem
-        max-width: 50%
-        text-align: center
+        padding: 1rem 0.5rem
+        letter-spacing: 1px
+        width: 14rem
+        max-width: 70%
         font-family: base.$body-font
         color: base.$pinkish
         opacity: 0.9
@@ -244,7 +249,7 @@
         border-width: 1px
         border-color: base.$pinkish
         border-style: solid
-        letter-spaceing: 1px
+        letter-spacing: 1px
         padding: 1rem
         letter-spacing: 1px
         width: 15rem
@@ -363,7 +368,7 @@
         border-color: base.$white
         color: base.$white
         border-style: solid
-        letter-spaceing: 1px
+        letter-spacing: 1px
         padding: 1rem
         letter-spacing: 1px
         width: 10rem
@@ -387,7 +392,7 @@
         border-color: base.$white
         color: base.$white
         border-style: solid
-        letter-spaceing: 1px
+        letter-spacing: 1px
         padding: 1rem
         letter-spacing: 1px
         width: 10rem
@@ -402,6 +407,8 @@
 .myemail-txt
     color: base.$white
     opacity: 0.5
+    font-size: 1rem
+    letter-spacing: 1px
 //HOVER
 @media (hover:hover)
 .header

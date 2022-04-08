@@ -1,5 +1,5 @@
 import { Component } from "react";
-import ProjectsData from "./ProjectsData";
+import {ProjectsPreviewData} from "./ProjectsData";
 
 class ProjectsPreview extends Component {
   ReavealProject(event) {
@@ -19,10 +19,10 @@ class ProjectsPreview extends Component {
   render() {
     return (
       <section className="portfolio-grid">
-        {ProjectsData.slice(0, 1).map((project) => (
+        {ProjectsPreviewData.map((project) => (
           <section className="project">
             <a
-              href="https://catherineisonline.github.io/pizza-time-with-react/"
+              href={project.src}
               target="_blank"
               rel="noreferrer"
             >

@@ -3,8 +3,11 @@ import {
   EducationData,
   CertificationData,
 } from "./ExperienceData";
-
+import DownloadIcon from "../images/download-icon.png";
+import Resume from "../images/Ekaterine-Mitagvaria.pdf";
 const About = () => {
+  document.title = "About | Catherine Mitagvaria";
+
   return (
     <article className="about-main">
       <section>
@@ -18,9 +21,11 @@ const About = () => {
           on real projects!
         </p>
       </section>
-      <section>
-        <button class="download-btn">Download Resume</button>
-      </section>
+      <a className="download-btn" href={Resume} download="Ekaterine-Mitagvaria">
+        <img src={DownloadIcon} alt="" className="download-img"></img>Download
+        Resume
+      </a>
+
       <section className="about-cotainer-2">
         <h2 className="title-font  pink-text">My Stack</h2>
         <section className="stack-section">
@@ -131,7 +136,10 @@ const About = () => {
         </section>
       </section>
       <section>
-        <button class="download-btn">Download Resume</button>
+        <a className="download-btn" href={Resume} download="Ekaterine-Mitagvaria">
+          <img src={DownloadIcon} alt="" className="download-img"></img>Download
+          Resume
+        </a>
       </section>
       <section>
         <h2 className="title-font  pink-text">Certifications</h2>

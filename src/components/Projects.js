@@ -1,6 +1,5 @@
 import { Component } from "react";
-import ProjectsData from "./ProjectsData";
-
+import { ProjectsData } from "./ProjectsData";
 
 class Projects extends Component {
   ReavealProject(event) {
@@ -22,11 +21,7 @@ class Projects extends Component {
       <section className="portfolio-grid">
         {ProjectsData.map((project) => (
           <section className="project">
-            <a
-              href="https://catherineisonline.github.io/pizza-time-with-react/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={project.src} target="_blank" rel="noreferrer">
               <section
                 className="project-icon"
                 onMouseEnter={this.ReavealProject}
@@ -46,7 +41,6 @@ class Projects extends Component {
             </a>
           </section>
         ))}
-     
       </section>
     );
   }
