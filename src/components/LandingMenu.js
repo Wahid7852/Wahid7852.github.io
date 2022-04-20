@@ -7,7 +7,7 @@ import Github from "../images/github-pink.svg";
 import Codepen from "../images/codepen-pink.svg";
 
 const SideMenu = () => {
-  document.title ="Catherine Mitagvaria | Personal Portfolio"; 
+  document.title = "Catherine Mitagvaria | Personal Portfolio";
   function ToggleMenu() {
     const Hiddenmenu = document.querySelector(".main-menu");
     Hiddenmenu.classList.toggle("active-menu");
@@ -30,6 +30,12 @@ const SideMenu = () => {
       HamIcon.src = Whiteham;
     }
   }
+  // function menuEnterEffects(e) {
+  //   e.target.classList.add("menu-hover");
+  // }
+  // function menuLeaveEffects(e) {
+  //   e.target.classList.remove("menu-hover");
+  // }
   return (
     <article className="side-menu">
       <section className="ham-section">
@@ -43,7 +49,7 @@ const SideMenu = () => {
           }}
         ></img>
       </section>
- 
+
       <section className="main-menu">
         <Link
           to="/personal-portfolio"
@@ -55,7 +61,7 @@ const SideMenu = () => {
         >
           <img src={IconBlack} alt=""></img>
         </Link>
-     
+
         <section className="menu-links">
           <NavLink
             to="/personal-portfolio"
@@ -64,6 +70,8 @@ const SideMenu = () => {
               ResetLocation();
               HideMenu();
             }}
+            // onMouseEnter={menuEnterEffects}
+            // onMouseLeave={menuLeaveEffects}
           >
             Main
           </NavLink>
@@ -75,13 +83,13 @@ const SideMenu = () => {
               HideMenu();
             }}
             style={({ isActive }) =>
-                isActive
-                  ? {
-                      textDecoration: "none",
-                      color: "#fd1056",
-                    }
-                  : {}
-              }
+              isActive
+                ? {
+                    textDecoration: "none",
+                    color: "#fd1056",
+                  }
+                : {}
+            }
           >
             About
           </NavLink>
@@ -93,13 +101,13 @@ const SideMenu = () => {
               HideMenu();
             }}
             style={({ isActive }) =>
-                isActive
-                  ? {
-                      textDecoration: "none",
-                      color: "#fd1056",
-                    }
-                  : {}
-              }
+              isActive
+                ? {
+                    textDecoration: "none",
+                    color: "#fd1056",
+                  }
+                : {}
+            }
           >
             Portfolio
           </NavLink>
@@ -111,13 +119,13 @@ const SideMenu = () => {
               HideMenu();
             }}
             style={({ isActive }) =>
-                isActive
-                  ? {
-                      textDecoration: "none",
-                      color: "#fd1056",
-                    }
-                  : {}
-              }
+              isActive
+                ? {
+                    textDecoration: "none",
+                    color: "#fd1056",
+                  }
+                : {}
+            }
           >
             Contact
           </NavLink>
@@ -141,14 +149,15 @@ const SideMenu = () => {
             href="https://codepen.io/catherineisonline"
             target="_blank"
             rel="noreferrer"
-
           >
             <img src={Codepen} alt="codepen" />
           </a>
-          
         </section>
-        <section className="menu-email"><span className="myemail-txt">&lt; / ekaterine.jpg@gmail.com &gt;</span></section> 
-      
+        <section className="menu-email">
+          <span className="myemail-txt">
+            &lt; / ekaterine.jpg@gmail.com &gt;
+          </span>
+        </section>
       </section>
     </article>
   );
