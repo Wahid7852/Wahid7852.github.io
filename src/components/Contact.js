@@ -11,10 +11,10 @@ const Contact = () => {
   return (
     <article className="contact-main">
       <section>
-        <h2 className="title-font pink-text">Email Me</h2>
+        <h2 className="title-font pink-text h2-tag">Email Me</h2>
         <br></br>
-        <span className="myemail-txt">&lt; / ekaterine.jpg@gmail.com &gt;</span>
-        <p className="white-text">
+        {/* <span className="myemail-txt">&lt; / ekaterine.jpg@gmail.com &gt;</span> */}
+        <p className="white-text p-tag">
           If you are interested to hire me I am always open to new opportunities
           and interesting projects! Feel free to contact me if you have any
           other requests or questions regarding web development.
@@ -26,8 +26,8 @@ const Contact = () => {
         </section>
       </section>
       <section>
-        <h2 className="title-font pink-text">Contact Me</h2>
-        <p className="white-text">
+        <h2 className="title-font pink-text h2-tag">Contact Me</h2>
+        <p className="white-text p-tag">
           This form doesn't work yet but it's here because I like it and would
           love to make it fully functional.
         </p>

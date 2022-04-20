@@ -18,7 +18,7 @@ class Projects extends Component {
   }
   render() {
     return (
-      <section className="portfolio-grid">
+      <section className="portfolio-grid section-tag">
         {ProjectsData.map((project) => (
           <section className="project">
             <a href={project.src} target="_blank" rel="noreferrer">

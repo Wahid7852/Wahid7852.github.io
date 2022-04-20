@@ -72,7 +72,7 @@ class ContactForm extends Component {
       }
     }
     return (
-      <section className="contact-us-form">
+      <section className="contact-us-form form-tag">
         <form className="contact-form">
           <section className="contact-form-item">
             <input

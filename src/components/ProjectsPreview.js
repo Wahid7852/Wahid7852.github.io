@@ -18,9 +18,9 @@ class ProjectsPreview extends Component {
   }
   render() {
     return (
-      <section className="portfolio-grid">
+      <section className=" portfolio-grid">
         {ProjectsPreviewData.map((project) => (
-          <section className="project">
+          <section className="project ">
             <a
               href={project.src}
               target="_blank"

@@ -173,6 +173,10 @@
         grid-template-columns: repeat(2, 1fr)
         p
             margin-top: 2rem
+.about
+    display: grid
+    grid-template-columns: 1fr
+
 .about-main
     display: flex
     flex-direction: column
@@ -282,6 +286,7 @@
     max-width: 100%
     display: grid
     grid-template-columns: repeat(2, 1fr)
+    position: relative
     .project
         cursor: pointer
         position: relative
@@ -329,6 +334,9 @@
 
     @media (min-width: base.$lg-width)
         grid-template-columns: repeat(4, 1fr)
+.section-tag:after
+    top: 130%
+
 //CONTACT 
 .contact, .contact-main
     padding: 1.5rem
@@ -423,10 +431,10 @@
     justify-content: center
     display: flex
     flex-direction: row
-    width: 100%
     a
         font-family: base.$codingfont
         color: base.$gray
+        opacity: 0.4
 //HOVER
 @media (hover:hover)
 .header

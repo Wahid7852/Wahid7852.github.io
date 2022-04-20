@@ -2,8 +2,8 @@ const AboutPreview = () => {
   return (
     <article className="about">
       <section>
-        <h2 className="title-font pink-text">About Me</h2>
-        <p className="white-text">
+        <h2 className="title-font pink-text h2-tag">About Me</h2>
+        <p className="white-text p-tag">
           After working in different fields for over 9 years and seeking
           something special, I have recently found my passion in web
           development, currently JavaScript and its frameworks. My latest job

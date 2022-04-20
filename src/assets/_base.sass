@@ -32,6 +32,7 @@ a
     cursor: pointer
 h1, h2, h3, h4
     margin: 0
+    position: relative
 ul, li
     padding: 0
     margin: 0
@@ -53,3 +54,73 @@ p
     color: $pinkish
 .gray-text
     color: $gray
+
+// TAG STYLING
+
+.h1-tag:before
+    content: "<h1>"
+.h1-tag:after
+    content: "<h1/>"
+.h2-tag:before
+    content: "<h2>"
+.h2-tag:after
+    content: "<h2/>"
+.h3-tag:before
+    content: "<h3>"
+.h3-tag:after
+    content: "<h3/>"
+.p-tag:before
+    content: "<p>"
+.p-tag:after
+    content: "<p/>"
+.section-tag:before
+    content: "<section>"
+.section-tag:after
+    content: "<section/>"
+.ul-tag:before
+    content: "<ul>"
+.ul-tag:after
+    content: "<ul/>"
+.form-tag:before
+    content: "<form>"
+.form-tag:after
+    content: "<form/>"
+.h2-tag:before, .h3-tag:before, .h1-tag:before, .p-tag:before, .ul-tag:before, .form-tag:before
+    display: block
+    margin-top: 2rem
+    font-size: 2rem
+    color: $gray
+    font-family: $codingfont
+    opacity: 0.3
+.h2-tag:after, .h3-tag:after, .h1-tag:after, .p-tag:after, .ul-tag:after, .form-tag:after
+    display: inline
+    margin-left: 2rem
+    font-size: 2rem
+    color: $gray
+    font-family: $codingfont
+    opacity: 0.3
+.p-tag:before, .p-tag:after, .ul-tag:before, .ul-tag:after, .form-tag:before, .form-tag:after
+    font-size: 1.5rem
+
+.section-tag:before
+    font-size: 1.5rem
+    display: inline
+    position: absolute
+    transform: translate(0, -30%)
+    margin-top: -2rem
+    font-size: 2rem
+    color: $gray
+    font-family: $codingfont
+    opacity: 0.3
+.section-tag:after
+    font-size: 1.5rem
+    display: inline
+    position: absolute
+    transform: translate(0, -110%)
+    top: 110%
+    right: 0
+    font-size: 2rem
+    color: $gray
+    font-family: $codingfont
+    opacity: 0.3
+// .section-tag:after + MEDIA QUERY 
