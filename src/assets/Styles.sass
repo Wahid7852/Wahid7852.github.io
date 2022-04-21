@@ -286,57 +286,43 @@
 .portfolio-grid
     max-width: 100%
     display: grid
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(3, 1fr)
     position: relative
+    .project-meta
+        position: absolute
+        top: 0
+        display: flex
+        flex-direction: column
+
+        width: 100%
+        .project-meta-stack
+            display: flex
+            flex-direction: row
+            padding-left: 1rem
+            gap: 1rem
+            p
+                font-size: 0.6rem
+                padding: 0.4rem
+                font-family: base.$title-font
+                background-color: #0000003d
+                backdrop-filter: blur(5px)
+                border-radius: 5px
+                letter-spacing: 0.5px
+
     .project
         cursor: pointer
         position: relative
     .project-icon
         position: relative
         width: 100%
-        opacity: 0.7
+        opacity: 0.5
+        transition: all 0.4s ease
+        height: 100%
     .project-img
         position: relative
         width: 100%
         object-fit: cover
         height: 100%
-    .project-snippet
-        display: none
-    .project-snippet.show-snippet
-        display: flex
-        flex-direction: column
-        font-size: 1rem
-        display: block
-        position: absolute
-        top: 0
-        left: 0
-        width: 100%
-        height: 100%
-        background-color: rgba(255, 255, 255, .15)
-        backdrop-filter: blur(5px)
-    .stack-used
-        position: absolute
-        top: 10%
-        left: 10%
-        width: 50%
-        height: 50%
-        display: flex
-        flex-direction: column
-        justify-content: center
-        background-color: base.$white
-        border-radius: 100%
-        padding: 2rem
-        text-align: center
-        p
-            letter-spacing: 2px
-            font-size: 1rem
-            color: base.$pinkish
-            font-weight: bold
-
-    @media (min-width: base.$lg-width)
-        grid-template-columns: repeat(4, 1fr)
-.section-tag:after
-    top: 130%
 
 //CONTACT 
 .contact, .contact-main
@@ -463,7 +449,9 @@
         background-position: left bottom
         border-color: transparent
         transition: all 0.4s ease
-
+.project-icon:hover
+    opacity: 0.8
+    transition: all 0.4s ease
 //MENU HOVER EFFECTS
 .menu-links a:hover
     color: base.$pinkish

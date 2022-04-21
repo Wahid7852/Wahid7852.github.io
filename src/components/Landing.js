@@ -5,6 +5,7 @@ import ContactPreview from "./ContactPreview";
 import Footer from "./Footer";
 
 const Mainpage = () => {
+  document.title = "Catherine Mitagvaria | Personal Portfolio";
   return (
     <article className="main-page">
       <HeaderPreview />

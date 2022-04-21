@@ -7,7 +7,6 @@ import Github from "../images/github-pink.svg";
 import Codepen from "../images/codepen-pink.svg";
 
 const SideMenu = () => {
-  document.title = "Catherine Mitagvaria | Personal Portfolio";
   function ToggleMenu() {
     const Hiddenmenu = document.querySelector(".main-menu");
     Hiddenmenu.classList.toggle("active-menu");
@@ -30,12 +29,6 @@ const SideMenu = () => {
       HamIcon.src = Whiteham;
     }
   }
-  // function menuEnterEffects(e) {
-  //   e.target.classList.add("menu-hover");
-  // }
-  // function menuLeaveEffects(e) {
-  //   e.target.classList.remove("menu-hover");
-  // }
   return (
     <article className="side-menu">
       <section className="ham-section">
@@ -70,8 +63,6 @@ const SideMenu = () => {
               ResetLocation();
               HideMenu();
             }}
-            // onMouseEnter={menuEnterEffects}
-            // onMouseLeave={menuLeaveEffects}
           >
             Main
           </NavLink>

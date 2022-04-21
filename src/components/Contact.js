@@ -20,7 +20,7 @@ const Contact = () => {
           other requests or questions regarding web development.
         </p>
         <section>
-          <button class="sendemail-btn" onClick={sendEmai}>
+          <button className="sendemail-btn" onClick={sendEmai}>
             Send Email
           </button>
         </section>
