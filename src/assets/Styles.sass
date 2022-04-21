@@ -286,20 +286,18 @@
 .portfolio-grid
     max-width: 100%
     display: grid
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-columns: repeat(1, 1fr)
     position: relative
     .project-meta
         position: absolute
         top: 0
         display: flex
         flex-direction: column
-
-        width: 100%
         .project-meta-stack
             display: flex
-            flex-direction: row
+            flex-direction: column
             padding-left: 1rem
-            gap: 1rem
+            gap: 0.5rem
             p
                 font-size: 0.6rem
                 padding: 0.4rem
@@ -308,7 +306,6 @@
                 backdrop-filter: blur(5px)
                 border-radius: 5px
                 letter-spacing: 0.5px
-
     .project
         cursor: pointer
         position: relative
@@ -323,6 +320,14 @@
         width: 100%
         object-fit: cover
         height: 100%
+    @media (min-width: base.$md-width)
+        grid-template-columns: repeat(2, 1fr)
+        .project-meta
+            width: 100%
+            .project-meta-stack
+                flex-direction: row
+    @media (min-width: base.$lg-width)
+        grid-template-columns: repeat(3, 1fr)
 
 //CONTACT 
 .contact, .contact-main

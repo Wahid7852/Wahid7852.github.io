@@ -23,9 +23,9 @@ const ProjectsPreviewData = [
   {
     id: 3,
     img: ProjectThree,
-    name: "Personal Portfolio",
-    stack: ["<HTML/>", "< Sass />", "</ React.js >"],
-    src: "https://catherineisonline.github.io/personal-portfolio/",
+    name: "Guess My Number",
+    stack: ["<HTML/>", "< CSS3 />", "</ Vanilla JS >"],
+    src: "https://catherineisonline.github.io/guess-my-number/",
   },
   {
     id: 4,
@@ -68,9 +68,9 @@ const ProjectsData = [
   {
     id: 3,
     img: ProjectThree,
-    name: "Personal Portfolio",
-    stack: ["<HTML/>", "< Sass />", "</ React.js >"],
-    src: "https://catherineisonline.github.io/personal-portfolio/",
+    name: "Guess My Number",
+    stack: ["<HTML/>", "< CSS3 />", "</ Vanilla JS >"],
+    src: "https://catherineisonline.github.io/guess-my-number/",
   },
   {
     id: 4,
@@ -90,7 +90,7 @@ const ProjectsData = [
     id: 6,
     img: ProjectSix,
     name: "Rest Countires",
-    stack: ["< HTML5 /> ", "< CSS3 />", "</ React.js >", "</ Restful Api >"],
+    stack: ["< HTML5 /> ", "< CSS3 />", "</ React.js >", "</ Rest Api >"],
     src: "https://catherineisonline.github.io/rest-countries/",
   },
 ];
