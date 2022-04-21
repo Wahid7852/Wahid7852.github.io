@@ -13,9 +13,9 @@ class ProjectsPreview extends Component {
               </section>
               <section className="project-meta white-text">
                 <section className="project-meta-stack">
-                  <p>{project.stackOne}</p>
-                  <p>{project.stackTwo}</p>
-                  <p>{project.stackThree}</p>
+                {project.stack.map((stackName, index) => (
+                    <p key={index}>{stackName}</p>
+                  ))}
                 </section>
               </section>
             </a>
