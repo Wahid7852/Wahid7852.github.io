@@ -1,4 +1,4 @@
-<img src="https://github.com/catherineisonline/personal-portfolio/blob/main/public/project-preview.jpeg?raw=true"><img/>
+<img src="https://github.com/catherineisonline/personal-portfolio/blob/main/public/project-preview.jpeg?raw=true" width="50%"><img/>
 
 # Personal Portfolio
 
