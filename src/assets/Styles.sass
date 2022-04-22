@@ -13,6 +13,7 @@
     margin-top: 20%
     @media (min-width: base.$lg-width)
         grid-column: span 3
+        margin-top: 2%
 //SIDE MENU
 .side-menu
     display: flex
@@ -23,10 +24,14 @@
     grid-column: span 1
 .side-menu
     .logo-section
+        height: 40%
+
         img
             max-width: 100%
-            height: 80%
+            height: 70%
             margin: 0 auto
+            object-fit: cover
+            opacity: 0.8
     .ham-section
         display: flex
         flex-direction: row
@@ -93,7 +98,7 @@
         .ham-menu
             display: none
         img
-            width: 70%
+            width: 50%
             object-fit: contain
 //HEADER
 .header
