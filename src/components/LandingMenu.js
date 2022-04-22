@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
-import Whiteham from "../images/hamburger-white.png";
-import WhiteXham from "../images/x-ham-white.png";
+import Whiteham from "../images/hamburger-white.jpeg";
+import WhiteXham from "../images/x-ham-white.jpeg";
 import IconBlack from "../images/icon-black.png";
 import Linkedin from "../images/linkedin-pink.svg";
 import Github from "../images/github-pink.svg";

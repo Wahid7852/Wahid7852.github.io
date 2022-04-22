@@ -1,9 +1,9 @@
-import ProjectOne from "../images/project-one.png";
-import ProjectTwo from "../images/project-two.png";
-import ProjectThree from "../images/project-three.png";
-import ProjectFour from "../images/project-four.png";
-import ProjectFive from "../images/project-five.png";
-import ProjectSix from "../images/project-six.png";
+import ProjectOne from "../images/project-one.jpeg";
+import ProjectTwo from "../images/project-two.jpeg";
+import ProjectThree from "../images/project-three.jpeg";
+import ProjectFour from "../images/project-four.jpeg";
+import ProjectFive from "../images/project-five.jpeg";
+import ProjectSix from "../images/project-six.jpeg";
 
 const ProjectsPreviewData = [
   {
