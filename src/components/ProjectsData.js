@@ -31,8 +31,8 @@ const ProjectsPreviewData = [
     id: 4,
     img: ProjectFour,
     name: "Frontend Mentor Solutions",
-    stack: ["< Vue.js />", "< CSS3 />", "< HTML5 />"],
-    src: "https://frontend-mentor-challenge-solutions.vercel.app/",
+    stack: ["< Vue.js />", "< Sass />", "< HTML5 />"],
+    src: "https://catherineisonline.github.io/frontend-mentor-challenge-solutions/",
   },
   {
     id: 5,
@@ -76,8 +76,8 @@ const ProjectsData = [
     id: 4,
     img: ProjectFour,
     name: "Frontend Mentor Solutions",
-    stack: ["< Vue.js />", "< CSS3 />", "< HTML5 />"],
-    src: "https://frontend-mentor-challenge-solutions.vercel.app/",
+    stack: ["< Vue.js />", "< Sass />", "< HTML5 />"],
+    src: "https://catherineisonline.github.io/frontend-mentor-challenge-solutions/",
   },
   {
     id: 5,
