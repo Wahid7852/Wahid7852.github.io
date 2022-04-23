@@ -19,7 +19,7 @@ const AboutPreview = () => {
           <li>CSS3</li>
           <li>Tailwind</li>
           <li>SCSS/SASS</li>
-          <li>Vanilla JavaScript ES6+</li>
+          <li>JavaScript ES6+</li>
           <li>React.js</li>
           <li>RESTful API</li>
           <li>Github</li>

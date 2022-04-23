@@ -3,7 +3,7 @@ import {
   EducationData,
   CertificationData,
 } from "./ExperienceData";
-import DownloadIcon from "../images/download-icon.jpeg";
+import DownloadIcon from "../images/download-icon.png";
 import Resume from "../images/Ekaterine-Mitagvaria.pdf";
 import Footer from "./Footer";
 const About = () => {
