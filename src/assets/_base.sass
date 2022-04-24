@@ -17,6 +17,13 @@ $pinkish: #fd1056
 $white: #fff
 $gray: #8d8d8d
 $darkgray: #2b2b2b
+//Hide Scrollbar
+@mixin hideScrollbar
+html::-webkit-scrollbar
+    width: 0 !important
+    -ms-overflow-style: none
+    scrollbar-width: none
+
 body
     background-color: $black-bg
     position: relative
