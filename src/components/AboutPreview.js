@@ -8,8 +8,8 @@ const AboutPreview = () => {
           something special, I have recently found my passion in web
           development, currently JavaScript and its frameworks. My latest job
           included social media and management however I decided to give it a go
-          and dive into web developement field. I am looking forward to working
-          on real projects!
+          and dive into the web development field. I am looking forward to
+          working on real projects!
         </p>
         <h3 className="title-font white-text">
           Here are a few tools & technologies I’ve been working with:
