@@ -153,7 +153,7 @@ const EducationData = [
 const CertificationData = [
   {
     name: "React + Redux",
-    source: "Codecademy",
+    source: "Sololearn",
     date: "Issued Dec 2021 · No Expiration Date",
     creditUrl: "https://www.sololearn.com/Certificate/1097-19028975/pdf",
   },
