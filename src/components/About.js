@@ -63,11 +63,11 @@ const About = () => {
                 <p>{info.location}</p>
               </section>
               <section>
-                <ul className="responsibilities ul-tag">
+                <ol className="responsibilities ul-tag">
                   {info.responsibility.map((data) => (
                     <li>{data}</li>
                   ))}
-                </ul>
+                </ol>
               </section>
             </section>
           ))}

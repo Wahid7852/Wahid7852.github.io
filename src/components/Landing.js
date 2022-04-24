@@ -3,6 +3,7 @@ import HeaderPreview from "./HeaderPreview";
 import PortfolioPreview from "./PortfolioPreview";
 import ContactPreview from "./ContactPreview";
 import Footer from "./Footer";
+import ScrollButton from "./ScrollButton";
 
 const Mainpage = () => {
   document.title = "Catherine Mitagvaria | Personal Portfolio";
@@ -12,6 +13,7 @@ const Mainpage = () => {
       <AboutPreview />
       <PortfolioPreview />
       <ContactPreview />
+      <ScrollButton />
       <Footer />
     </article>
   );
