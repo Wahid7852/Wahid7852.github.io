@@ -198,7 +198,7 @@
     padding: 2rem
 
     li
-        list-style-type: none
+        display: list-item
         color: base.$white
         font-family: base.$body-font
         line-height: 1.5rem
@@ -206,7 +206,7 @@
         font-weight: 100
         font-size: 1.2rem
     li::marker
-        content: counter(list-item) " › "
+        content: counter(li) " > "
         color: base.$pinkish
         animation: color 0.3s ease-in-out infinite
 
