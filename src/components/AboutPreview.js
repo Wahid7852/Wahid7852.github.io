@@ -14,7 +14,7 @@ const AboutPreview = () => {
         <h3 className="title-font white-text">
           Here are a few tools & technologies I’ve been working with:
         </h3>
-        <ul className="stack-section">
+        <ol className="stack-section">
           <li>HTML5</li>
           <li>CSS3</li>
           <li>Tailwind</li>
@@ -26,7 +26,7 @@ const AboutPreview = () => {
           <li>Git</li>
           <li>Figma</li>
           <li>Visual Studio Code</li>
-        </ul>
+        </ol>
       </section>
     </article>
   );

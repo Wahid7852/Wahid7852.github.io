@@ -24,20 +24,20 @@ const About = () => {
         <h3 className="title-font white-text ">
           Here are a few tools & technologies I’ve been working with:
         </h3>
-    
-        <ul className="stack-section ">
+
+        <ol className="stack-section ">
           <li>HTML5</li>
           <li>CSS3</li>
           <li>Tailwind</li>
           <li>SCSS/SASS</li>
-          <li>Vanilla JavaScript ES6+</li>
+          <li>JavaScript ES6+</li>
           <li>React.js</li>
           <li>RESTful API</li>
           <li>Github</li>
           <li>Git</li>
           <li>Figma</li>
           <li>Visual Studio Code</li>
-        </ul>
+        </ol>
       </section>
       <a className="download-btn" href={Resume} download="Ekaterine-Mitagvaria">
         <img src={DownloadIcon} alt="" className="download-img"></img>Download
@@ -53,7 +53,7 @@ const About = () => {
                 <h3 className="h3-tag">{info.jobtitle}</h3>
               </section>
               <section className="section-2">
-                <p>{info.companyname}</p>
+                <p>{info.companyname} - </p>
                 <p>{info.worktype}</p>
               </section>
               <section>
