@@ -2,6 +2,9 @@ import ProjectsPreview from "./Projects";
 import { Link } from "react-router-dom";
 
 const PortfolioPreview = () => {
+  function ResetLocation() {
+    window.scrollTo(0, 0);
+  }
   return (
     <article className="portfolio">
       <section className="portfolio-text">
@@ -26,6 +29,7 @@ const PortfolioPreview = () => {
       <ProjectsPreview />
       <section>
         <Link
+        onClick={ResetLocation}
           className="more-projects-btn pink-text"
           to="/personal-portfolio/portfolio"
         >

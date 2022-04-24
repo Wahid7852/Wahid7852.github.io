@@ -155,13 +155,13 @@ const CertificationData = [
     name: "React + Redux",
     source: "Codecademy",
     date: "Issued Dec 2021 · No Expiration Date",
-    creditUrl: "https://www.sololearn.com/Certificate/1097-19028975/jpg",
+    creditUrl: "https://www.sololearn.com/Certificate/1097-19028975/pdf",
   },
   {
     name: "Responsive Web Design",
     source: "Sololearn",
     date: "Issued Dec 2021 · No Expiration Date",
-    creditUrl: "https://www.sololearn.com/Certificate/1162-19028975/jpg",
+    creditUrl: "https://www.sololearn.com/Certificate/1162-19028975/pdf",
   },
   {
     name: "The Web Developer Bootcamp",
