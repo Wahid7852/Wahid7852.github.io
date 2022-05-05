@@ -2,7 +2,7 @@ import Projects from "./Projects";
 import Footer from "./Footer";
 
 const Portfolio = () => {
-  document.title ="Portfolio | Catherine Mitagvaria"; 
+  document.title = "Portfolio | Catherine Mitagvaria";
   return (
     <article className="portfolio-main">
       <section className="portfolio-text">
@@ -25,7 +25,7 @@ const Portfolio = () => {
         </p>
       </section>
       <Projects />
-     <Footer />
+      <Footer />
     </article>
   );
 };

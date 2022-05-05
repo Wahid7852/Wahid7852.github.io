@@ -3,7 +3,7 @@ const Footer = () => {
     <article className="footer">
       <section>
         <a
-          href="https://github.com/catherineisonline/personal-portfolio"
+          href="https://github.com/catherineisonline/"
           target="_blank"
           rel="noreferrer"
         >
