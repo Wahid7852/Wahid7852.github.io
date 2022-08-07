@@ -157,6 +157,41 @@ const EducationData = [
 
 const CertificationData = [
   {
+    name: "Learn React",
+    source: "Codecademy",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.codecademy.com/profiles/catherineisonline/certificates/af00e5032d0a68cc84879983f5d8333b",
+  },
+  {
+    name: "Learn Intermediate JavaScript",
+    source: "Codecademy",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.codecademy.com/profiles/catherineisonline/certificates/512386fdc7f6c934f98b01e6afa8285a",
+  },
+  {
+    name: "Learn Intermediate CSS",
+    source: "Codecademy",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.codecademy.com/profiles/catherineisonline/certificates/b3dec49423da50603c25618aee635027",
+  },
+  {
+    name: "Create a Professional Website with Velo by Wix Course",
+    source: "Codecademy",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.codecademy.com/profiles/catherineisonline/certificates/9605a581bda107153c433f7889dbc268",
+  },
+  {
+    name: "Code Foundations",
+    source: "Codecademy",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.codecademy.com/profiles/catherineisonline/certificates/5b55e668646caa552f8e4d1d",
+  },
+  {
     name: "Jira Fundamentals Badge",
     source: "Atlassian",
     date: "Issued Aug 2022 · No Expiration Date",
