@@ -1,4 +1,4 @@
-import ProjectsPreview from "./Projects";
+import ProjectsPreview from "./ProjectsPreview";
 import { Link } from "react-router-dom";
 
 const PortfolioPreview = () => {
@@ -29,7 +29,7 @@ const PortfolioPreview = () => {
       <ProjectsPreview />
       <section>
         <Link
-        onClick={ResetLocation}
+          onClick={ResetLocation}
           className="more-projects-btn pink-text"
           to="/personal-portfolio/portfolio"
         >

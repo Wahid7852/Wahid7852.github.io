@@ -1,6 +1,3 @@
-
-
-
 const ContactPreview = () => {
   function sendEmai() {
     window.open(
@@ -9,8 +6,8 @@ const ContactPreview = () => {
   }
   return (
     <article className="contact">
-         <section>
-        <h2 className="title-font pink-text h2-tag">Email Me</h2>
+      <section>
+        <h2 className="title-font pink-text h2-tag">Contact Me</h2>
         <br></br>
         {/* <span className="myemail-txt">&lt; / ekaterine.jpg@gmail.com &gt;</span> */}
         <p className="white-text p-tag">

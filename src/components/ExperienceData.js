@@ -139,6 +139,11 @@ const ExperienceData = [
 
 const EducationData = [
   {
+    name: "freeCodeCamp",
+    status: "JavaScript Algorithms and Data Structures",
+    year: "2021",
+  },
+  {
     name: "Tbilisi State University",
     status: "Ba, Psychology",
     year: "2012 - 2014",
@@ -151,6 +156,40 @@ const EducationData = [
 ];
 
 const CertificationData = [
+  {
+    name: "Jira Fundamentals Badge",
+    source: "Atlassian",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://university.atlassian.com/student/award/MXrALckUagVqUKYJqdvioenM",
+  },
+  {
+    name: "Trello Fundamentals Badge",
+    source: "Atlassian",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://university.atlassian.com/student/award/Xz2rCXRVypxn91pD5PsbYrby",
+  },
+  {
+    name: "EF SET English Certificate 73/100 C2 Proficient",
+    source: "EF Standard English Test (EF SET)",
+    date: "Issued Jul 2022 · No Expiration Date",
+    creditUrl: "https://www.efset.org/cert/7dr3HT",
+  },
+  {
+    name: "JavaScript Algorithms and Data Structures",
+    source: "freeCodeCamp",
+    date: "Issued Jul 2022 · No Expiration Date",
+    creditUrl:
+      "https://freecodecamp.org/certification/catherineisonline/javascript-algorithms-and-data-structures",
+  },
+  {
+    name: "The Complete JavaScript Course 2022: From Zero to Expert by Jonas Schmedtmann",
+    source: "Udemy",
+    date: "Issued Jul 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.udemy.com/certificate/UC-0ce60e41-2077-40bc-8385-b15db83540e5/",
+  },
   {
     name: "React + Redux",
     source: "Sololearn",

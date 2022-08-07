@@ -106,6 +106,7 @@
     flex-direction: column
     h1
         font-size: 3.8rem
+        letter-spacing: 1px
         em
             letter-spacing: 2px
     a
@@ -291,55 +292,81 @@
 //PORTFOLIO GRID
 .portfolio-grid
     max-width: 100%
-    display: grid
-    grid-template-columns: repeat(1, 1fr)
+    display: flex
+    flex-direction: column
+    gap: 2rem
     position: relative
-    .project-meta
-        position: absolute
-        top: 0
-        display: flex
-        flex-direction: column
+
+    .project
+        display: grid
+        grid-template-columns: 1fr
+        position: relative
+        gap: 1rem
+        align-items: center
         .project-meta-stack
             display: flex
-            flex-direction: column
-            padding-left: 1rem
-            gap: 0.5rem
+            flex-direction: row
+            flex-wrap: wrap
+            gap: 1rem
+            font-size: 1rem
             p
-                font-size: 0.9rem
+                font-size: 1rem
                 padding: 0.4rem
                 font-family: base.$title-font
-                background-color: #0000003d
+                background-color: #b0b0b009
+                color: base.$white
                 backdrop-filter: blur(5px)
                 border-radius: 5px
                 letter-spacing: 0.5px
-    .project
-        cursor: pointer
-        position: relative
-    .project-icon
-        position: relative
-        width: 100%
+                initial-letter: 1px
+                margin: 0
+    .project-description
+        padding: 1rem
+        display: flex
+        flex-direction: column
+        gap: 2rem
+        p
+            font-size: 1.3rem
+
+    .project-image-cover
+        display: flex
+        flex-direction: row
+        // position: relative
+        // width: 100%
         opacity: 0.5
         transition: all 0.4s ease
-        height: 100%
+        // height: 80%f
     .project-img
-        position: relative
-        width: 100%
+        // position: relative
+        max-width: 100%
         object-fit: cover
         height: 100%
+        // background-size: cover
+        // height: 100%
+    .project-links
+        display: flex
+        flex-direction: row
+        gap: 2rem
+        font-size: 1.5rem
+        text-decoration: underline
+        img
+            width: 2.5rem
+            height: 2.5rem
     @media (min-width: base.$md-width)
-        grid-template-columns: repeat(2, 1fr)
-        .project-meta
-            width: 100%
-            .project-meta-stack
-                flex-direction: row
-                p
-                    font-size: 0.6rem
+        .project
+            grid-template-columns: 60% 1fr
+            grid-template-rows: 1fr
+            .project-description
+                padding: 0
+        .project-meta-stack
+            flex-direction: row
+
     @media (min-width: base.$lg-width)
-        grid-template-columns: repeat(3, 1fr)
-        .project-meta
-            .project-meta-stack
-                p
-                    font-size: 0.7rem
+        .project
+            grid-template-columns: repeat(2, 1fr)
+            align-items: start
+            .project-description
+                align-items: flex-start
 
 //CONTACT 
 .contact, .contact-main
@@ -487,7 +514,7 @@
         background-position: left bottom
         border-color: transparent
         transition: all 0.4s ease
-.project-icon:hover
+.project-image-cover:hover
     opacity: 0.8
     transition: all 0.4s ease
 //MENU HOVER EFFECTS
