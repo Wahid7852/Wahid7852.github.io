@@ -16,7 +16,7 @@ const ProjectsPreviewData = [
     src: "https://catherineisonline.github.io/pizza-time-with-react/",
     source: "https://github.com/catherineisonline/pizza-time-with-react",
     description:
-      "Pizza Time, a pizza restaurant that offers online menu with various option like pizza, sushi or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
+      "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const ProjectsPreviewData = [
     src: "https://catherineisonline.github.io/edgy/",
     source: "https://github.com/catherineisonline/edgy",
     description:
-      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner infuluencers. The website includes pricings, contact form, blog, careers page and more.",
+      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner influencers. The website includes prices, a contact form, a blog, a careers page, and more.",
   },
 
   {
@@ -67,7 +67,7 @@ const ProjectsPreviewData = [
     src: "https://bankist-bank.vercel.app/",
     source: "https://github.com/catherineisonline/bankist",
     description:
-      "Bankist is a fictional online bank and it's goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging to your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
+      "Bankist is a fictional online bank and its goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging into your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
   },
 ];
 
@@ -80,7 +80,7 @@ const ProjectsData = [
     src: "https://catherineisonline.github.io/pizza-time-with-react/",
     source: "https://github.com/catherineisonline/pizza-time-with-react",
     description:
-      "Pizza Time, a pizza restaurant that offers online menu with various option like pizza, sushi or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
+      "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
   },
   {
     id: 2,
@@ -100,7 +100,7 @@ const ProjectsData = [
     src: "https://catherineisonline.github.io/edgy/",
     source: "https://github.com/catherineisonline/edgy",
     description:
-      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner infuluencers. The website includes pricings, contact form, blog, careers page and more.",
+      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner influencers. The website includes prices, a contact form, a blog, a careers page, and more.",
   },
 
   {
@@ -131,7 +131,7 @@ const ProjectsData = [
     src: "https://bankist-bank.vercel.app/",
     source: "https://github.com/catherineisonline/bankist",
     description:
-      "Bankist is a fictional online bank and it's goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging to your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
+      "Bankist is a fictional online bank and its goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging into your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
   },
 
   {
@@ -153,7 +153,7 @@ const ProjectsData = [
     source:
       "https://github.com/catherineisonline/frontend-mentor-challenge-solutions",
     description:
-      "Frontend Mentor provides designs so that you can practice for front-end skills using a real-life workflow. Challenges include designs (both mobile and desktop), assets, and a style requirements.Here is the collection of all my Frontend Mentor challenge solutions. You can find links to their repositories, live demos and direct links to challenges on Frontend Mentor.",
+      "Frontend Mentor provides designs so that you can practice front-end skills using a real-life workflow. Challenges include designs (both mobile and desktop), assets, and style requirements. Here is the collection of all my Frontend Mentor challenge solutions. You can find links to their repositories, live demos, and direct links to challenges on Frontend Mentor.",
   },
 ];
 
