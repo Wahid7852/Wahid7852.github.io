@@ -139,7 +139,7 @@ const ProjectsData = [
     img: GuessMyNumber,
     name: "Guess My Number",
     stack: ["<HTML/>", "< CSS3 />", "</ Vanilla JS >"],
-    src: "https://catherineisonline.github.io/guess-my-number/",
+    src: "https://guess-my-number-now.vercel.app/",
     source: "https://github.com/catherineisonline/guess-my-number",
     description:
       "This JavaScript number guessing game project's main goal is to code a game where the user must guess a randomly generated number from 1 to 20. Depending on the number input, the user receives different messages until they guess the secret number.",
