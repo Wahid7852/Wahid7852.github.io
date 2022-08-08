@@ -146,7 +146,7 @@ const EducationData = [
   },
   {
     name: "Tbilisi public school N154",
-    status: "",
+    status: "General Education Diploma",
     year: "2000 - 2012",
   },
 ];
