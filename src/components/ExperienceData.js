@@ -153,6 +153,13 @@ const EducationData = [
 
 const CertificationData = [
   {
+    name: "Front-End Engineer Career Path",
+    source: "Codecademy",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.codecademy.com/profiles/catherineisonline/certificates/5f85dd867b67b60014ac9ea3",
+  },
+  {
     name: "Learn React",
     source: "Codecademy",
     date: "Issued Aug 2022 · No Expiration Date",
