@@ -6,13 +6,14 @@ import Edgy from "../images/Edgy.jpeg";
 import RestCountries from "../images/RestCountries.jpeg";
 import Bankist from "../images/Bankist.jpeg";
 import FrontendMentorSolutions from "../images/FrontendMentorSolutions.jpeg";
+import Precious from "../images/Precious.png";
 
 const ProjectsPreviewData = [
   {
     id: 1,
     img: PizzaTime,
     name: "Pizza Time",
-    stack: ["< HTML5 />", "< CSS3 />", "</ React.js >"],
+    stack: ["< React.js />", "< CSS3 />", "< Leaflet API />"],
     src: "https://catherineisonline.github.io/pizza-time-with-react/",
     source: "https://github.com/catherineisonline/pizza-time-with-react",
     description:
@@ -22,7 +23,7 @@ const ProjectsPreviewData = [
     id: 2,
     img: TravelWithCatherine,
     name: "Travel with Catherine",
-    stack: ["</ React.js >", "< Tailwind />", " < HTML5 />"],
+    stack: ["< React.js />", "< Tailwind />"],
     src: "https://catherineisonline.github.io/travel-with-catherine/",
     source: "https://github.com/catherineisonline/travel-with-catherine",
     description:
@@ -30,20 +31,20 @@ const ProjectsPreviewData = [
   },
   {
     id: 3,
-    img: Edgy,
-    name: "Edgy",
-    stack: ["< Tailwind />", "< HTML5 />", "</ React.js >"],
-    src: "https://catherineisonline.github.io/edgy/",
-    source: "https://github.com/catherineisonline/edgy",
+    img: Precious,
+    name: "Precious",
+    stack: ["< GraphQL />", "< React.js />", "< CSS3 />"],
+    src: "https://precious-store.vercel.app/",
+    source: "https://github.com/catherineisonline/precious",
     description:
-      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner influencers. The website includes prices, a contact form, a blog, a careers page, and more.",
+      "Precious is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices.",
   },
 
   {
     id: 4,
     img: RestCountries,
     name: "Rest Countires",
-    stack: ["< HTML5 /> ", "< CSS3 />", "</ React.js >", "</ Restful Api >"],
+    stack: ["< RESTful API />", "< CSS3 />", "< React.js />"],
     src: "https://catherineisonline.github.io/rest-countries/",
     source: "https://github.com/catherineisonline/rest-countries",
     description:
@@ -53,7 +54,7 @@ const ProjectsPreviewData = [
     id: 5,
     img: Forkify,
     name: "Forkify Recipes",
-    stack: ["<HTML5 />", "< SCSS />", "</ Vanilla JS >", "</ Restful Api >"],
+    stack: ["< HTML5 />", "< SCSS />", "< Vanilla JS />", "< RESTful API />"],
     src: "https://forkify-recipe-api.vercel.app/",
     source: "https://github.com/catherineisonline/forkify",
     description:
@@ -63,7 +64,7 @@ const ProjectsPreviewData = [
     id: 6,
     img: Bankist,
     name: "Bankist",
-    stack: ["</ Vanilla JS >", "< CSS3 />", "< HTML5 />"],
+    stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
     src: "https://bankist-bank.vercel.app/",
     source: "https://github.com/catherineisonline/bankist",
     description:
@@ -76,7 +77,7 @@ const ProjectsData = [
     id: 1,
     img: PizzaTime,
     name: "Pizza Time",
-    stack: ["< HTML5 />", "< CSS3 />", "</ React.js >"],
+    stack: ["< HTML5 />", "< CSS3 />", "< React.js />"],
     src: "https://catherineisonline.github.io/pizza-time-with-react/",
     source: "https://github.com/catherineisonline/pizza-time-with-react",
     description:
@@ -86,7 +87,7 @@ const ProjectsData = [
     id: 2,
     img: TravelWithCatherine,
     name: "Travel with Catherine",
-    stack: ["</ React.js >", "< Tailwind />", " < HTML5 />"],
+    stack: ["< React.js />", "< Tailwind />"],
     src: "https://catherineisonline.github.io/travel-with-catherine/",
     source: "https://github.com/catherineisonline/travel-with-catherine",
     description:
@@ -94,20 +95,20 @@ const ProjectsData = [
   },
   {
     id: 3,
-    img: Edgy,
-    name: "Edgy",
-    stack: ["< Tailwind />", "< HTML5 />", "</ React.js >"],
-    src: "https://catherineisonline.github.io/edgy/",
-    source: "https://github.com/catherineisonline/edgy",
+    img: Precious,
+    name: "Precious",
+    stack: ["< GraphQL />", "< React.js />", "< CSS3 />"],
+    src: "https://precious-store.vercel.app/",
+    source: "https://github.com/catherineisonline/precious",
     description:
-      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner influencers. The website includes prices, a contact form, a blog, a careers page, and more.",
+      "Precious is an e-commerce website that has at least 150 women's clothing products with different sizes and color choices. ",
   },
 
   {
     id: 4,
     img: RestCountries,
     name: "Rest Countires",
-    stack: ["< HTML5 /> ", "< CSS3 />", "</ React.js >", "</ Restful Api >"],
+    stack: ["< CSS3 />", "< React.js />", "< RESTful API />"],
     src: "https://catherineisonline.github.io/rest-countries/",
     source: "https://github.com/catherineisonline/rest-countries",
     description:
@@ -117,7 +118,7 @@ const ProjectsData = [
     id: 5,
     img: Forkify,
     name: "Forkify Recipes",
-    stack: ["<HTML5 />", "< SCSS />", "</ Vanilla JS >", "</ Restful Api >"],
+    stack: ["< SCSS />", "< Vanilla JS />", "< RESTful API />"],
     src: "https://forkify-recipe-api.vercel.app/",
     source: "https://github.com/catherineisonline/forkify",
     description:
@@ -127,7 +128,7 @@ const ProjectsData = [
     id: 6,
     img: Bankist,
     name: "Bankist",
-    stack: ["</ Vanilla JS >", "< CSS3 />", "< HTML5 />"],
+    stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
     src: "https://bankist-bank.vercel.app/",
     source: "https://github.com/catherineisonline/bankist",
     description:
@@ -138,7 +139,7 @@ const ProjectsData = [
     id: 7,
     img: GuessMyNumber,
     name: "Guess My Number",
-    stack: ["<HTML/>", "< CSS3 />", "</ Vanilla JS >"],
+    stack: ["<HTML5 />", "< CSS3 />", "< Vanilla JS />"],
     src: "https://guess-my-number-now.vercel.app/",
     source: "https://github.com/catherineisonline/guess-my-number",
     description:
@@ -148,12 +149,22 @@ const ProjectsData = [
     id: 8,
     img: FrontendMentorSolutions,
     name: "Frontend Mentor Solutions",
-    stack: ["< Vue.js />", "< Sass />", "< HTML5 />"],
+    stack: ["< Vue.js />", "< Sass />"],
     src: "https://catherineisonline.github.io/frontend-mentor-challenge-solutions/",
     source:
       "https://github.com/catherineisonline/frontend-mentor-challenge-solutions",
     description:
       "Frontend Mentor provides designs so that you can practice front-end skills using a real-life workflow. Challenges include designs (both mobile and desktop), assets, and style requirements. Here is the collection of all my Frontend Mentor challenge solutions. You can find links to their repositories, live demos, and direct links to challenges on Frontend Mentor.",
+  },
+  {
+    id: 9,
+    img: Edgy,
+    name: "Edgy",
+    stack: ["< Tailwind />", "< React.js />"],
+    src: "https://catherineisonline.github.io/edgy/",
+    source: "https://github.com/catherineisonline/edgy",
+    description:
+      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner influencers. The website includes prices, a contact form, a blog, a careers page, and more.",
   },
 ];
 
