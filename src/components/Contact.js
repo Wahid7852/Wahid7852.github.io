@@ -1,4 +1,4 @@
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 
 const Contact = () => {

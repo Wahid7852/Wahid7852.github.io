@@ -6,7 +6,7 @@ import "./assets/Styles.sass";
 //Components/
 import Landing from "./components/Landing";
 import LandingMenu from "./components/LandingMenu";
-import About from "./components/About";
+import About from "./components/About/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
@@ -23,7 +23,6 @@ root.render(
       <Route path="/personal-portfolio/portfolio" element={<Portfolio />} />
       <Route path="/personal-portfolio/contact" element={<Contact />} />
     </Routes>
-  
   </Router>
 );
 
