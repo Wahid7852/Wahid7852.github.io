@@ -1,5 +1,5 @@
 // import ContactForm from "./ContactForm";
-import Footer from "./footer/Footer";
+import Footer from "../footer/Footer";
 
 const Contact = () => {
   document.title = "Contact | Catherine Mitagvaria";
@@ -13,7 +13,6 @@ const Contact = () => {
       <section>
         <h2 className="title-font pink-text h2-tag">Contact Me</h2>
         <br></br>
-        {/* <span className="myemail-txt">&lt; / ekaterine.jpg@gmail.com &gt;</span> */}
         <p className="white-text p-tag">
           If you are interested to hire me I am always open to new opportunities
           and interesting projects! Feel free to contact me if you have any
@@ -25,14 +24,6 @@ const Contact = () => {
           </button>
         </section>
       </section>
-      {/* <section>
-        <h2 className="title-font pink-text h2-tag">Contact Me</h2>
-        <p className="white-text p-tag">
-          This form doesn't work yet but it's here because I like it and would
-          love to make it fully functional.
-        </p>
-        <ContactForm />
-      </section> */}
       <Footer />
     </article>
   );

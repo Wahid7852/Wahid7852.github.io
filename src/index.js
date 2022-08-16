@@ -7,8 +7,8 @@ import "./assets/Styles.sass";
 import Landing from "./components/landingPage/Landing";
 import Navigation from "./components/navigation/Navigation";
 import About from "./components/about/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 import reportWebVitals from "./reportWebVitals";
 
