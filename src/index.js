@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./assets/Styles.sass";
 //Components/
 import Landing from "./components/landingPage/Landing";
-import LandingMenu from "./components/navigation/LandingMenu";
+import Navigation from "./components/navigation/Navigation";
 import About from "./components/about/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
@@ -16,7 +16,7 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
   <Router>
-    <LandingMenu />
+    <Navigation />
     <Routes>
       <Route path="/personal-portfolio" element={<Landing />} />
       <Route path="/personal-portfolio/about" element={<About />} />
