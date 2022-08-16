@@ -1,11 +1,11 @@
-import PizzaTime from "../images/PizzaTime.jpeg";
-import TravelWithCatherine from "../images/TravelWithCatherine.jpeg";
-import GuessMyNumber from "../images/GuessMyNumber.jpeg";
-import Forkify from "../images/Forkify.jpeg";
-import Edgy from "../images/Edgy.jpeg";
-import RestCountries from "../images/RestCountries.jpeg";
-import Bankist from "../images/Bankist.jpeg";
-import FrontendMentorSolutions from "../images/FrontendMentorSolutions.jpeg";
+import PizzaTime from "../../images/PizzaTime.jpeg";
+import TravelWithCatherine from "../../images/TravelWithCatherine.jpeg";
+import GuessMyNumber from "../../images/GuessMyNumber.jpeg";
+import Forkify from "../../images/Forkify.jpeg";
+import Edgy from "../../images/Edgy.jpeg";
+import RestCountries from "../../images/RestCountries.jpeg";
+import Bankist from "../../images/Bankist.jpeg";
+import FrontendMentorSolutions from "../../images/FrontendMentorSolutions.jpeg";
 
 const ProjectsPreviewData = [
   {

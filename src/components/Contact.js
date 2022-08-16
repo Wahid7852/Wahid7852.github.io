@@ -1,5 +1,5 @@
 // import ContactForm from "./ContactForm";
-import Footer from "./Footer";
+import Footer from "./footer/Footer";
 
 const Contact = () => {
   document.title = "Contact | Catherine Mitagvaria";

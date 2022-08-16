@@ -14,9 +14,6 @@ const AboutMe = () => {
         situations, and my desire to learn quickly adapts me to changing
         situations.
       </p>
-      <h3 className="title-font white-text ">
-        Here are a few tools & technologies I’ve been working with:
-      </h3>
     </section>
   );
 };

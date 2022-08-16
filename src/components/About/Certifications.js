@@ -1,4 +1,4 @@
-import { CertificationData } from "../ExperienceData";
+import { CertificationData } from "../data/ExperienceData";
 export const Certifications = () => {
   return (
     <section>

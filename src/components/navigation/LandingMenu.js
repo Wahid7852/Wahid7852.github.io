@@ -1,10 +1,10 @@
 import { NavLink, Link } from "react-router-dom";
-import Whiteham from "../images/hamburger-white.png";
-import WhiteXham from "../images/x-ham-white.png";
-import IconBlack from "../images/icon-black.png";
-import Linkedin from "../images/linkedin-pink.svg";
-import Github from "../images/github-pink.svg";
-import Codepen from "../images/codepen-pink.svg";
+import Whiteham from "../../images/hamburger-white.png";
+import WhiteXham from "../../images/x-ham-white.png";
+import IconBlack from "../../images/icon-black.png";
+import Linkedin from "../../images/linkedin-pink.svg";
+import Github from "../../images/github-pink.svg";
+import Codepen from "../../images/codepen-pink.svg";
 
 const SideMenu = () => {
   function ToggleMenu() {
