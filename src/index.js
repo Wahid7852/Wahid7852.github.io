@@ -7,7 +7,7 @@ import "./assets/Styles.sass";
 import Landing from "./components/landingPage/Landing.js";
 import Navigation from "./components/navigation/Navigation.js";
 // import About from "./components/about/About.js";
-import About from "./components/About/About";
+import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio.js";
 import Contact from "./components/contact/Contact.js";
 

@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
 
-const NavigationMenu = () => {
+const NavigationMenu = (props) => {
   return (
     <section className="menu-links">
       <NavLink
         to="/personal-portfolio"
         className=" gray-text "
         onClick={() => {
-          this.props.ResetLocation();
-          this.props.HideMenu();
+          props.ResetLocation();
+          props.HideMenu();
         }}
       >
         Main
@@ -17,8 +17,8 @@ const NavigationMenu = () => {
         to="/personal-portfolio/about"
         className="gray-text"
         onClick={() => {
-          this.props.ResetLocation();
-          this.props.HideMenu();
+          props.ResetLocation();
+          props.HideMenu();
         }}
         style={({ isActive }) =>
           isActive
@@ -35,8 +35,8 @@ const NavigationMenu = () => {
         to="/personal-portfolio/portfolio"
         className="gray-text"
         onClick={() => {
-          this.props.ResetLocation();
-          this.props.HideMenu();
+          props.ResetLocation();
+          props.HideMenu();
         }}
         style={({ isActive }) =>
           isActive
@@ -53,8 +53,8 @@ const NavigationMenu = () => {
         to="/personal-portfolio/contact"
         className="gray-text"
         onClick={() => {
-          this.props.ResetLocation();
-          this.props.HideMenu();
+          props.ResetLocation();
+          props.HideMenu();
         }}
         style={({ isActive }) =>
           isActive

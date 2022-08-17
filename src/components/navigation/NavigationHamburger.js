@@ -1,6 +1,6 @@
 import Whiteham from "../../images/hamburger-white.png";
 
-const NavigationHamburger = () => {
+const NavigationHamburger = (props) => {
   return (
     <section className="ham-section">
       <img
@@ -8,8 +8,8 @@ const NavigationHamburger = () => {
         src={Whiteham}
         alt=""
         onClick={() => {
-          this.props.ToggleMenu();
-          this.props.changeHamburger();
+          props.ToggleMenu();
+          props.changeHamburger();
         }}
       ></img>
     </section>
