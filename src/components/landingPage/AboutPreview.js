@@ -1,5 +1,5 @@
-import AboutMe from "../about/AboutMe";
-import Stack from "../about/Stack";
+import AboutMe from "../About/AboutMe";
+import Stack from "../About/Stack";
 
 const AboutPreview = () => {
   return (
