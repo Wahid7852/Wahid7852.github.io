@@ -10,7 +10,7 @@ export const Languages = () => {
             <h3>Georgian</h3>
             <p>Native or bilingual proficiency</p>
             <h3>Russian</h3>
-            <p>Limited working proficiency</p>
+            <p>Native or bilingual proficiency</p>
             <h3>German</h3>
             <p>Elementary proficiency</p>
           </section>
