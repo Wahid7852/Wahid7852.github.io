@@ -4,7 +4,7 @@ const NavigationMenu = (props) => {
   return (
     <section className="menu-links">
       <NavLink
-        to="/personal-portfolio"
+        to="/"
         className=" gray-text "
         onClick={() => {
           props.ResetLocation();
@@ -14,7 +14,7 @@ const NavigationMenu = (props) => {
         Main
       </NavLink>
       <NavLink
-        to="/personal-portfolio/about"
+        to="/about"
         className="gray-text"
         onClick={() => {
           props.ResetLocation();
@@ -32,7 +32,7 @@ const NavigationMenu = (props) => {
         About
       </NavLink>
       <NavLink
-        to="/personal-portfolio/portfolio"
+        to="/portfolio"
         className="gray-text"
         onClick={() => {
           props.ResetLocation();
@@ -50,7 +50,7 @@ const NavigationMenu = (props) => {
         Portfolio
       </NavLink>
       <NavLink
-        to="/personal-portfolio/contact"
+        to="/contact"
         className="gray-text"
         onClick={() => {
           props.ResetLocation();

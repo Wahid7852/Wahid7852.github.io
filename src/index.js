@@ -19,10 +19,10 @@ root.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/personal-portfolio" element={<Landing />} />
-      <Route path="/personal-portfolio/about" element={<About />} />
-      <Route path="/personal-portfolio/portfolio" element={<Portfolio />} />
-      <Route path="/personal-portfolio/contact" element={<Contact />} />
+      <Route path="/" element={<Landing />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   </Router>
 );

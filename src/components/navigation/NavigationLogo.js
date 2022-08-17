@@ -4,7 +4,7 @@ import IconBlack from "../../images/icon-black.png";
 const NavigationLogo = (props) => {
   return (
     <NavLink
-      to="/personal-portfolio"
+      to="/"
       className="logo-section"
       onClick={() => {
         props.ResetLocation();
