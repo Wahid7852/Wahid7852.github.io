@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //Styles
 import "./assets/Styles.sass";
 //Components/
-import Landing from "./components/landingPage/Landing";
-import Navigation from "./components/navigation/Navigation";
-import About from "./components/about/About";
-import Portfolio from "./components/portfolio/Portfolio";
-import Contact from "./components/contact/Contact";
+import Landing from "./components/landingPage/Landing.js";
+import Navigation from "./components/navigation/Navigation.js";
+import About from "./components/about/About.js";
+import Portfolio from "./components/portfolio/Portfolio.js";
+import Contact from "./components/contact/Contact.js";
 
 import reportWebVitals from "./reportWebVitals";
 
