@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import ResetLocation from "../ResetLocation";
-import HideMenu from "../HideMenu";
+import ResetLocation from "../actions/ResetLocation";
+import HideMenu from "../actions/HideMenu";
 const NavigationMenu = () => {
   return (
     <section className="menu-links">

@@ -1,4 +1,4 @@
-import Whiteham from "../images/hamburger-white.png";
+import Whiteham from "../../images/hamburger-white.png";
 const HideMenu = () => {
   const Hiddenmenu = document.querySelector(".main-menu");
   Hiddenmenu.classList.remove("active-menu");

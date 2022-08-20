@@ -3,7 +3,7 @@ import HeaderPreview from "./HeaderPreview";
 import PortfolioPreview from "./PortfolioPreview";
 import ContactPreview from "./ContactPreview";
 import Footer from "../footer/Footer";
-import ScrollButton from "../ScrollButton";
+import ScrollButton from "../actions/ScrollButton";
 
 const Mainpage = () => {
   document.title = "Catherine Mitagvaria | Personal Portfolio";
