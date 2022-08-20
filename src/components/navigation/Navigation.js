@@ -11,15 +11,6 @@ const Navigation = () => {
     const Hiddenmenu = document.querySelector(".main-menu");
     Hiddenmenu.classList.toggle("active-menu");
   }
-  function HideMenu() {
-    const Hiddenmenu = document.querySelector(".main-menu");
-    Hiddenmenu.classList.remove("active-menu");
-    const HamIcon = document.querySelector(".ham-menu");
-    HamIcon.src = Whiteham;
-  }
-  function ResetLocation() {
-    window.scrollTo(0, 0);
-  }
   function changeHamburger() {
     const Hiddenmenu = document.querySelector(".main-menu");
     const HamIcon = document.querySelector(".ham-menu");
@@ -36,8 +27,8 @@ const Navigation = () => {
         changeHamburger={changeHamburger}
       />
       <section className="main-menu">
-        <NavigationLogo ResetLocation={ResetLocation} HideMenu={HideMenu} />
-        <NavigationMenu ResetLocation={ResetLocation} HideMenu={HideMenu} />
+        <NavigationLogo />
+        <NavigationMenu />
         <NavigationSocials />
         <NavigationEmail />
       </section>

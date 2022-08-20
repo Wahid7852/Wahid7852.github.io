@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import ScrollToTop from "./ScrollToTop";
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
 
@@ -11,20 +11,12 @@ const ScrollButton = () => {
       setVisible(false);
     }
   };
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
   window.addEventListener("scroll", toggleVisible);
 
   return (
     <div
       className="scroll-button"
-      onClick={scrollToTop}
+      onClick={ScrollToTop}
       style={{ display: visible ? "inline" : "none" }}
     ></div>
   );

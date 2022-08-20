@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
-
-const NavigationMenu = (props) => {
+import ResetLocation from "../ResetLocation";
+import HideMenu from "../HideMenu";
+const NavigationMenu = () => {
   return (
     <section className="menu-links">
       <NavLink
@@ -9,8 +10,8 @@ const NavigationMenu = (props) => {
           "gray-text nav-link" + (isActive ? " main-active" : "")
         }
         onClick={() => {
-          props.ResetLocation();
-          props.HideMenu();
+          ResetLocation();
+          HideMenu();
         }}
       >
         Main
@@ -18,8 +19,8 @@ const NavigationMenu = (props) => {
       <NavLink
         to="/about"
         onClick={() => {
-          props.ResetLocation();
-          props.HideMenu();
+          ResetLocation();
+          HideMenu();
         }}
         className={({ isActive }) =>
           "gray-text nav-link" + (isActive ? " active" : "")
@@ -33,8 +34,8 @@ const NavigationMenu = (props) => {
           "gray-text nav-link" + (isActive ? " active" : "")
         }
         onClick={() => {
-          props.ResetLocation();
-          props.HideMenu();
+          ResetLocation();
+          HideMenu();
         }}
       >
         Portfolio
@@ -45,8 +46,8 @@ const NavigationMenu = (props) => {
           "gray-text nav-link" + (isActive ? " active" : "")
         }
         onClick={() => {
-          props.ResetLocation();
-          props.HideMenu();
+          ResetLocation();
+          HideMenu();
         }}
       >
         Contact
