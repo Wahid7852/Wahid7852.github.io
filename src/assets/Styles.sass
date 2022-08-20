@@ -64,13 +64,20 @@
         flex-direction: column
         gap: 2rem
         text-align: center
-    a
+    .nav-link
         letter-spacing: 1px
         color: base.$gray
         font-family: base.$body-font
         font-size: 1.5rem
         height: 40%
         transition: all 0.4s ease
+    .nav-link.active
+        text-decoration: none
+        color: #fd1056
+    .nav-link.main-active
+        text-decoration: none
+        color: base.$gray
+
     .social-media
         display: flex
         flex-direction: row
@@ -520,16 +527,16 @@
     opacity: 0.8
     transition: all 0.4s ease
 //MENU HOVER EFFECTS
-.menu-links a:hover
+.nav-link:hover, .nav-link.active:hover, .nav-link.main-active:hover
     color: base.$pinkish
     transition: all 0.4s ease
     letter-spacing: 2px
-.menu-links a:hover::before
+.nav-link:hover::before, .nav-link.active:hover::before, .nav-link.main-active:hover::before
     content: "<"
     color: base.$pinkish
     display: inline
     transition: all 0.4s ease
-.menu-links a:hover::after
+.nav-link:hover::after, .nav-link.active:hover::after,.nav-link.main-active:hover::after
     content: "/>"
     color: base.$pinkish
     display: inline

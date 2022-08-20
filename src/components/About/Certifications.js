@@ -1,5 +1,5 @@
 import { CertificationData } from "../data/ExperienceData";
-export const Certifications = () => {
+const Certifications = () => {
   return (
     <section>
       <h2 className="title-font  pink-text h2-tag">Certifications</h2>

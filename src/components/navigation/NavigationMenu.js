@@ -5,7 +5,9 @@ const NavigationMenu = (props) => {
     <section className="menu-links">
       <NavLink
         to="/"
-        className=" gray-text "
+        className={({ isActive }) =>
+          "gray-text nav-link" + (isActive ? " main-active" : "")
+        }
         onClick={() => {
           props.ResetLocation();
           props.HideMenu();
@@ -15,55 +17,37 @@ const NavigationMenu = (props) => {
       </NavLink>
       <NavLink
         to="/about"
-        className="gray-text"
         onClick={() => {
           props.ResetLocation();
           props.HideMenu();
         }}
-        style={({ isActive }) =>
-          isActive
-            ? {
-                textDecoration: "none",
-                color: "#fd1056",
-              }
-            : {}
+        className={({ isActive }) =>
+          "gray-text nav-link" + (isActive ? " active" : "")
         }
       >
         About
       </NavLink>
       <NavLink
         to="/portfolio"
-        className="gray-text"
+        className={({ isActive }) =>
+          "gray-text nav-link" + (isActive ? " active" : "")
+        }
         onClick={() => {
           props.ResetLocation();
           props.HideMenu();
         }}
-        style={({ isActive }) =>
-          isActive
-            ? {
-                textDecoration: "none",
-                color: "#fd1056",
-              }
-            : {}
-        }
       >
         Portfolio
       </NavLink>
       <NavLink
         to="/contact"
-        className="gray-text"
+        className={({ isActive }) =>
+          "gray-text nav-link" + (isActive ? " active" : "")
+        }
         onClick={() => {
           props.ResetLocation();
           props.HideMenu();
         }}
-        style={({ isActive }) =>
-          isActive
-            ? {
-                textDecoration: "none",
-                color: "#fd1056",
-              }
-            : {}
-        }
       >
         Contact
       </NavLink>

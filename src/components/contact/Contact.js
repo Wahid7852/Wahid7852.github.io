@@ -1,4 +1,3 @@
-// import ContactForm from "./ContactForm";
 import Footer from "../footer/Footer";
 
 const Contact = () => {

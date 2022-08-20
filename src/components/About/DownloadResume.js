@@ -1,6 +1,6 @@
 import DownloadIcon from "../../images/download-icon.png";
 import Resume from "../../images/Ekaterine-Mitagvaria.pdf";
-export const DownloadResume = () => {
+const DownloadResume = () => {
   return (
     <section>
       <a className="download-btn" href={Resume} download="Ekaterine-Mitagvaria">

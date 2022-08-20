@@ -1,4 +1,4 @@
-export const Languages = () => {
+const Languages = () => {
   return (
     <section>
       <h2 className="title-font  pink-text h2-tag">Languages</h2>

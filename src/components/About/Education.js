@@ -1,6 +1,6 @@
 import { EducationData } from "../data/ExperienceData";
 
-export const Education = () => {
+const Education = () => {
   return (
     <section>
       <h2 className="title-font  pink-text h2-tag">Education</h2>
