@@ -1,6 +1,8 @@
+import React from "react";
+
 const Stack = () => {
   return (
-    <>
+    <React.Fragment>
       <h3 className="title-font white-text ">
         Here are a few tools & technologies I’ve been working with:
       </h3>
@@ -17,7 +19,7 @@ const Stack = () => {
         <li>Figma</li>
         <li>Visual Studio Code</li>
       </ol>
-    </>
+    </React.Fragment>
   );
 };
 export default Stack;

@@ -2,17 +2,15 @@ import { EducationData } from "../data/ExperienceData";
 
 const Education = () => {
   return (
-    <section>
+    <section className="education">
       <h2 className="title-font  pink-text h2-tag">Education</h2>
-      <section className="education">
-        {EducationData.map((info, index) => (
-          <section key={index}>
-            <h3 className="">{info.name}</h3>
-            <p>{info.status}</p>
-            <p>{info.year}</p>
-          </section>
-        ))}
-      </section>
+      {EducationData.map((info, index) => (
+        <section key={index}>
+          <h3 className="">{info.name}</h3>
+          <p>{info.status}</p>
+          <p>{info.year}</p>
+        </section>
+      ))}
     </section>
   );
 };
