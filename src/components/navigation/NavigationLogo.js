@@ -9,7 +9,7 @@ const NavigationLogo = (props) => {
       className="logo-section"
       onClick={() => {
         ResetLocation();
-        props.ToggleMenu();
+        props.closeMenu();
       }}
     >
       <img src={IconBlack} alt="logo"></img>

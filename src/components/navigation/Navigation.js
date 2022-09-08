@@ -15,12 +15,15 @@ const Navigation = () => {
       ? setHiddenMenu(false) || (ref.current.src = WhiteXham)
       : setHiddenMenu(true) || (ref.current.src = Whiteham);
   }
+  function closeMenu() {
+    return setHiddenMenu(true);
+  }
   return (
     <article className="side-menu">
       <NavigationHamburger ToggleMenu={ToggleMenu} ref={ref} />
       <section className={`main-menu${hiddenMenu ? `` : ` active-menu`}`}>
-        <NavigationLogo ToggleMenu={ToggleMenu} />
-        <NavigationMenu ToggleMenu={ToggleMenu} />
+        <NavigationLogo closeMenu={closeMenu} />
+        <NavigationMenu closeMenu={closeMenu} />
         <NavigationSocials />
         <NavigationEmail />
       </section>

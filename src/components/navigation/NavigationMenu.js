@@ -14,7 +14,7 @@ const NavigationMenu = (props) => {
         }
         onClick={() => {
           ResetLocation();
-          props.ToggleMenu();
+          props.closeMenu();
         }}
       >
         Main
@@ -23,7 +23,7 @@ const NavigationMenu = (props) => {
         to="/about"
         onClick={() => {
           ResetLocation();
-          props.ToggleMenu();
+          props.closeMenu();
         }}
         className={activeNavlink}
       >
@@ -34,7 +34,7 @@ const NavigationMenu = (props) => {
         className={activeNavlink}
         onClick={() => {
           ResetLocation();
-          props.ToggleMenu();
+          props.closeMenu();
         }}
       >
         Portfolio
@@ -44,7 +44,7 @@ const NavigationMenu = (props) => {
         className={activeNavlink}
         onClick={() => {
           ResetLocation();
-          props.ToggleMenu();
+          props.closeMenu();
         }}
       >
         Contact
