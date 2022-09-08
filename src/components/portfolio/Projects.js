@@ -6,10 +6,8 @@ const Projects = () => {
   return (
     <section className="portfolio-grid">
       {ProjectsData.map((project) => (
-        <section className="project">
-          <section className="project-image-cover">
-            <img src={project.img} alt="" className="project-img"></img>
-          </section>
+        <section key={project.id} className="project">
+          <img src={project.img} alt="" className="project-img"></img>
           <section className="project-description">
             <p className="white-text p-tag">{project.description}</p>
             <section className="project-meta-stack ">

@@ -9,7 +9,7 @@ import FrontendMentorSolutions from "../../images/FrontendMentorSolutions.jpeg";
 
 const ProjectsPreviewData = [
   {
-    id: 1,
+    id: "pizza-time",
     img: PizzaTime,
     name: "Pizza Time",
     stack: ["< React.js />", "< CSS3 />", "< Leaflet API />"],
@@ -19,7 +19,7 @@ const ProjectsPreviewData = [
       "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
   },
   {
-    id: 2,
+    id: "travel-with-catherine",
     img: TravelWithCatherine,
     name: "Travel with Catherine",
     stack: ["< React.js />", "< Tailwind />"],
@@ -29,7 +29,7 @@ const ProjectsPreviewData = [
       "Travel with Catherine, a simple photography portfolio to show off some of my photography and code! Another great project to practice React and Tailwind.",
   },
   {
-    id: 3,
+    id: "rest-countries",
     img: RestCountries,
     name: "Rest Countires",
     stack: ["< RESTful API />", "< CSS3 />", "< React.js />"],
@@ -39,7 +39,7 @@ const ProjectsPreviewData = [
       "REST Countries is a project made with API which also has a color theme switcher feature. You can view the list of all countries and find a specific one via search or by filtering regions. By navigating to the individual country page, you are able to see more details about the country like native name and even border countries.",
   },
   {
-    id: 4,
+    id: "forkify",
     img: Forkify,
     name: "Forkify Recipes",
     stack: ["< HTML5 />", "< SCSS />", "< Vanilla JS />", "< RESTful API />"],
@@ -49,7 +49,7 @@ const ProjectsPreviewData = [
       "Forkify is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease servings as per his need and can view detailed directions.",
   },
   {
-    id: 5,
+    id: "bankist",
     img: Bankist,
     name: "Bankist",
     stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
@@ -62,7 +62,7 @@ const ProjectsPreviewData = [
 
 const ProjectsData = [
   {
-    id: 1,
+    id: "pizza-time",
     img: PizzaTime,
     name: "Pizza Time",
     stack: ["< HTML5 />", "< CSS3 />", "< React.js />"],
@@ -72,7 +72,7 @@ const ProjectsData = [
       "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
   },
   {
-    id: 2,
+    id: "travel-with-catherine",
     img: TravelWithCatherine,
     name: "Travel with Catherine",
     stack: ["< React.js />", "< Tailwind />"],
@@ -83,7 +83,7 @@ const ProjectsData = [
   },
 
   {
-    id: 3,
+    id: "rest-countries",
     img: RestCountries,
     name: "Rest Countires",
     stack: ["< CSS3 />", "< React.js />", "< RESTful API />"],
@@ -93,7 +93,7 @@ const ProjectsData = [
       "REST Countries is a project made with API which also has a color theme switcher feature. You can view the list of all countries and find a specific one via search or by filtering regions. By navigating to the individual country page, you are able to see more details about the country like native name and even border countries.",
   },
   {
-    id: 4,
+    id: "forkify",
     img: Forkify,
     name: "Forkify Recipes",
     stack: ["< SCSS />", "< Vanilla JS />", "< RESTful API />"],
@@ -103,7 +103,7 @@ const ProjectsData = [
       "Forkify is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease servings as per his need and can view detailed directions.",
   },
   {
-    id: 5,
+    id: "bankist",
     img: Bankist,
     name: "Bankist",
     stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
@@ -114,7 +114,7 @@ const ProjectsData = [
   },
 
   {
-    id: 6,
+    id: "guess-my-number",
     img: GuessMyNumber,
     name: "Guess My Number",
     stack: ["<HTML5 />", "< CSS3 />", "< Vanilla JS />"],
@@ -124,7 +124,7 @@ const ProjectsData = [
       "This JavaScript number guessing game project's main goal is to code a game where the user must guess a randomly generated number from 1 to 20. Depending on the number input, the user receives different messages until they guess the secret number.",
   },
   {
-    id: 7,
+    id: "frontend-mentor-solutions",
     img: FrontendMentorSolutions,
     name: "Frontend Mentor Solutions",
     stack: ["< Vue.js />", "< Sass />"],
@@ -135,7 +135,7 @@ const ProjectsData = [
       "Frontend Mentor provides designs so that you can practice front-end skills using a real-life workflow. Challenges include designs (both mobile and desktop), assets, and style requirements. Here is the collection of all my Frontend Mentor challenge solutions. You can find links to their repositories, live demos, and direct links to challenges on Frontend Mentor.",
   },
   {
-    id: 8,
+    id: "edgy",
     img: Edgy,
     name: "Edgy",
     stack: ["< Tailwind />", "< React.js />"],

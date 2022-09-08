@@ -7,9 +7,7 @@ const ProjectsPreview = () => {
     <section className=" portfolio-grid">
       {ProjectsPreviewData.map((project, index) => (
         <section key={index} className="project">
-          <section className="project-image-cover">
-            <img src={project.img} alt="" className="project-img"></img>
-          </section>
+          <img src={project.img} alt="" className="project-img"></img>
           <section className="project-description">
             <p className="white-text p-tag">{project.description}</p>
             <section className="project-meta-stack ">
