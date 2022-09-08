@@ -5,7 +5,7 @@ const NavigationHamburger = React.forwardRef((props, ref) => (
     <img
       className="ham-menu"
       src={Whiteham}
-      alt=""
+      alt="hamburger menu"
       ref={ref}
       onClick={() => {
         props.ToggleMenu();

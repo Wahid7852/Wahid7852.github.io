@@ -1,5 +1,9 @@
 import { NavLink } from "react-router-dom";
 import ResetLocation from "../actions/ResetLocation";
+
+const activeNavlink = ({ isActive }) =>
+  "gray-text nav-link" + (isActive ? " active" : "");
+
 const NavigationMenu = (props) => {
   return (
     <section className="menu-links">
@@ -21,17 +25,13 @@ const NavigationMenu = (props) => {
           ResetLocation();
           props.ToggleMenu();
         }}
-        className={({ isActive }) =>
-          "gray-text nav-link" + (isActive ? " active" : "")
-        }
+        className={activeNavlink}
       >
         About
       </NavLink>
       <NavLink
         to="/portfolio"
-        className={({ isActive }) =>
-          "gray-text nav-link" + (isActive ? " active" : "")
-        }
+        className={activeNavlink}
         onClick={() => {
           ResetLocation();
           props.ToggleMenu();
@@ -41,9 +41,7 @@ const NavigationMenu = (props) => {
       </NavLink>
       <NavLink
         to="/contact"
-        className={({ isActive }) =>
-          "gray-text nav-link" + (isActive ? " active" : "")
-        }
+        className={activeNavlink}
         onClick={() => {
           ResetLocation();
           props.ToggleMenu();

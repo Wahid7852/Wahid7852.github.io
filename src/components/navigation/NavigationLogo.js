@@ -12,7 +12,7 @@ const NavigationLogo = (props) => {
         props.ToggleMenu();
       }}
     >
-      <img src={IconBlack} alt=""></img>
+      <img src={IconBlack} alt="logo"></img>
     </NavLink>
   );
 };

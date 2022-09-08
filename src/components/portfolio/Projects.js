@@ -7,7 +7,11 @@ const Projects = () => {
     <section className="portfolio-grid">
       {ProjectsData.map((project) => (
         <section key={project.id} className="project">
-          <img src={project.img} alt="" className="project-img"></img>
+          <img
+            src={project.img}
+            alt={project.name}
+            className="project-img"
+          ></img>
           <section className="project-description">
             <p className="white-text p-tag">{project.description}</p>
             <section className="project-meta-stack ">
@@ -17,10 +21,10 @@ const Projects = () => {
             </section>
             <section className="project-links">
               <a href={project.src} target="_blank" rel="noreferrer">
-                <img src={ExternalLink} alt=""></img>
+                <img src={ExternalLink} alt="External link icon"></img>
               </a>
               <a href={project.source} target="_blank" rel="noreferrer">
-                <img src={GithubRepo} alt=""></img>
+                <img src={GithubRepo} alt="Github icon"></img>
               </a>
             </section>
           </section>

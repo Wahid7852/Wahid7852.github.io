@@ -4,8 +4,12 @@ const DownloadResume = () => {
   return (
     <section>
       <a className="download-btn" href={Resume} download="Ekaterine-Mitagvaria">
-        <img src={DownloadIcon} alt="" className="download-img"></img>Download
-        Resume
+        <img
+          src={DownloadIcon}
+          alt="Download icon"
+          className="download-img"
+        ></img>
+        Download Resume
       </a>
     </section>
   );
