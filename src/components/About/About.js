@@ -6,6 +6,7 @@ import Education from "./Education";
 import WorkExperience from "./WorkExperience";
 import DownloadResume from "./DownloadResume";
 import AboutMe from "./AboutMe";
+import ScrollButton from "../actions/ScrollButton";
 
 const About = () => {
   document.title = "About | Catherine Mitagvaria";
@@ -19,6 +20,7 @@ const About = () => {
       <Languages />
       <DownloadResume />
       <Certifications />
+      <ScrollButton />
       <Footer />
     </article>
   );

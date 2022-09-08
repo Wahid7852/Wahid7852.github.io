@@ -1,3 +1,5 @@
+import Button from "../proxyComponent/Button";
+
 const SendEmail = () => {
   function sendEmai() {
     window.open(
@@ -5,9 +7,9 @@ const SendEmail = () => {
     );
   }
   return (
-    <button className="sendemail-btn" onClick={sendEmai}>
+    <Button className="sendemail-btn" onClick={sendEmai}>
       Send Email
-    </button>
+    </Button>
   );
 };
 

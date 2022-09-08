@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "../proxyComponent/Button";
 import ScrollToTop from "./ScrollToTop";
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
@@ -14,11 +15,11 @@ const ScrollButton = () => {
   window.addEventListener("scroll", toggleVisible);
 
   return (
-    <div
+    <Button
       className="scroll-button"
       onClick={ScrollToTop}
       style={{ display: visible ? "inline" : "none" }}
-    ></div>
+    />
   );
 };
 
