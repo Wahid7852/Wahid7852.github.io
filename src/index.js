@@ -1,15 +1,12 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-//Styles
-import "./assets/Styles.sass";
-//Components/
+import "./assets/styles/Styles.sass";
 import Landing from "./components/landingPage/Landing.js";
 import Navigation from "./components/navigation/Navigation.js";
 import About from "./components/About/About";
 import Portfolio from "./components/portfolio/Portfolio.js";
 import Contact from "./components/contact/Contact.js";
-
 import reportWebVitals from "./reportWebVitals";
 
 const container = document.getElementById("root");

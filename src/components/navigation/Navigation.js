@@ -1,5 +1,5 @@
-import Whiteham from "../../images/hamburger-white.png";
-import WhiteXham from "../../images/x-ham-white.png";
+import Whiteham from "../../assets/images/hamburger-white.png";
+import WhiteXham from "../../assets/images/x-ham-white.png";
 import NavigationEmail from "./NavigationEmail";
 import NavigationHamburger from "./NavigationHamburger";
 import NavigationLogo from "./NavigationLogo";

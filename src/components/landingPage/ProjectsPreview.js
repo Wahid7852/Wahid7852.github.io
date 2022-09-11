@@ -1,5 +1,5 @@
-import ExternalLink from "../../images/project-external.png";
-import GithubRepo from "../../images/project-source.png";
+import ExternalLink from "../../assets/images/project-external.png";
+import GithubRepo from "../../assets/images/project-source.png";
 import { ProjectsPreviewData } from "../data/ProjectsData";
 
 const ProjectsPreview = () => {

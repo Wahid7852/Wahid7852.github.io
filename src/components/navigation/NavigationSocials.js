@@ -1,6 +1,6 @@
-import Linkedin from "../../images/linkedin-pink.svg";
-import Github from "../../images/github-pink.svg";
-import Codepen from "../../images/codepen-pink.svg";
+import Linkedin from "../../assets/images/socials/linkedin-pink.svg";
+import Github from "../../assets/images/socials/github-pink.svg";
+import Codepen from "../../assets/images/socials/codepen-pink.svg";
 const NavigationSocials = () => {
   return (
     <section className="social-media">

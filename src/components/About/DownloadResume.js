@@ -1,5 +1,5 @@
-import DownloadIcon from "../../images/download-icon.png";
-import Resume from "../../images/Ekaterine-Mitagvaria.pdf";
+import DownloadIcon from "../../assets/images/download-icon.png";
+import Resume from "../../assets/documents/Ekaterine-Mitagvaria.pdf";
 const DownloadResume = () => {
   return (
     <section>

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import IconBlack from "../../images/icon-black.png";
+import IconBlack from "../../assets/images/icon-black.png";
 import ResetLocation from "../actions/ResetLocation";
 
 const NavigationLogo = (props) => {
