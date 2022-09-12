@@ -1,12 +1,12 @@
-import Footer from "../footer/Footer";
-import Certifications from "./Certifications";
-import Languages from "./Languages";
-import Stack from "./Stack";
-import Education from "./Education";
-import WorkExperience from "./WorkExperience";
-import DownloadResume from "./DownloadResume";
-import AboutMe from "./AboutMe";
-import ScrollButton from "../actions/ScrollButton";
+import Footer from "../footer/Footer.js";
+import Certifications from "./Certifications.js";
+import Languages from "./Languages.js";
+import Stack from "./Stack.js";
+import Education from "./Education.js";
+import WorkExperience from "./WorkExperience.js";
+import DownloadResume from "./DownloadResume.js";
+import AboutMe from "./AboutMe.js";
+import ScrollButton from "../actions/ScrollButton.js";
 
 const About = () => {
   document.title = "About | Catherine Mitagvaria";
