@@ -11,12 +11,12 @@ const Navigation = () => {
   const [hiddenMenu, setHiddenMenu] = useState(true);
   const ref = React.useRef();
   function ToggleMenu() {
-    return hiddenMenu
+    hiddenMenu
       ? setHiddenMenu(false) || (ref.current.src = WhiteXham)
       : setHiddenMenu(true) || (ref.current.src = Whiteham);
   }
   function closeMenu() {
-    return setHiddenMenu(true);
+    setHiddenMenu(true) || (ref.current.src = Whiteham);
   }
   return (
     <article className="side-menu">
