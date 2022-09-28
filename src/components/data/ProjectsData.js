@@ -1,5 +1,5 @@
 import PizzaTime from "../../assets/images/portfolio/PizzaTime.jpeg";
-import TravelWithCatherine from "../../assets/images/portfolio/TravelWithCatherine.jpeg";
+import TravelWithCatherine from "../../assets/images/portfolio/TravelWithCatherine.png";
 import GuessMyNumber from "../../assets/images/portfolio/GuessMyNumber.jpeg";
 import Forkify from "../../assets/images/portfolio/Forkify.jpeg";
 import Edgy from "../../assets/images/portfolio/Edgy.jpeg";
@@ -22,7 +22,7 @@ const ProjectsPreviewData = [
     id: "travel-with-catherine",
     img: TravelWithCatherine,
     name: "Travel with Catherine",
-    stack: ["< React.js />", "< Tailwind />"],
+    stack: ["< React.js />", "< TypeScript />", "< Tailwind />"],
     src: "https://catherineisonline.github.io/travel-with-catherine/",
     source: "https://github.com/catherineisonline/travel-with-catherine",
     description:
@@ -75,7 +75,7 @@ const ProjectsData = [
     id: "travel-with-catherine",
     img: TravelWithCatherine,
     name: "Travel with Catherine",
-    stack: ["< React.js />", "< Tailwind />"],
+    stack: ["< React.js />", "< TypeScript />", "< Tailwind />"],
     src: "https://catherineisonline.github.io/travel-with-catherine/",
     source: "https://github.com/catherineisonline/travel-with-catherine",
     description:
