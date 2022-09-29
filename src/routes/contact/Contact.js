@@ -1,5 +1,5 @@
-import SendEmail from "../actions/SendEmail";
-import Footer from "../footer/Footer";
+import SendEmail from "../../components/SendEmail";
+import { Footer } from "../../components";
 
 const Contact = () => {
   document.title = "Contact | Catherine Mitagvaria";

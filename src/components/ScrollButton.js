@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Button from "../proxyComponent/Button";
-import ScrollToTop from "./ScrollToTop";
+import Button from "./Button";
+import ScrollToTop from "../helpers/ScrollToTop";
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
 

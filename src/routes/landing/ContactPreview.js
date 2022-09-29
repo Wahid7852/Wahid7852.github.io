@@ -1,4 +1,4 @@
-import SendEmail from "../actions/SendEmail";
+import SendEmail from "../../components/SendEmail";
 
 const ContactPreview = () => {
   return (

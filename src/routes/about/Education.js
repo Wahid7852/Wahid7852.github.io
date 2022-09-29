@@ -1,4 +1,4 @@
-import { EducationData } from "../data/ExperienceData";
+import { EducationData } from "../../data/ExperienceData";
 
 const Education = () => {
   return (

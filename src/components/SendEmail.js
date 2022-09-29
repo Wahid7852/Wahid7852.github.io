@@ -1,4 +1,4 @@
-import Button from "../proxyComponent/Button";
+import Button from "../components/Button";
 
 const SendEmail = () => {
   function sendEmai() {

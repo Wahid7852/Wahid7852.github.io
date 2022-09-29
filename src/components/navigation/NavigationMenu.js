@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import ResetLocation from "../actions/ResetLocation";
+import ResetLocation from '../../helpers/ResetLocation'
 
 const activeNavLink = ({ isActive }) =>
   "gray-text nav-link" + (isActive ? " active" : "");
