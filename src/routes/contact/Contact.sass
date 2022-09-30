@@ -1,0 +1,90 @@
+@use  "../../core-ui/_base"
+//CONTACT 
+.contact, .contact-main
+    padding: 1.5rem
+    display: flex
+    flex-direction: column
+    gap: 2rem
+    h2
+        font-size: 2.5rem
+        letter-spacing: 1px
+    p
+        font-size: 1.5rem
+    .sendemail-btn
+        background-color: transparent
+        border-width: 1px
+        border-color: base.$white
+        color: base.$white
+        border-style: solid
+        letter-spacing: 1px
+        padding: 1rem
+        letter-spacing: 1px
+        width: 10rem
+        max-width: 50%
+        text-align: center
+        font-family: base.$body-font
+        opacity: 0.9
+        background: linear-gradient(to right, base.$pinkish 50%, transparent 50%)
+        background-size: 200% 100%
+        background-position: right bottom
+        transition: all 0.4s ease
+    @media (min-width: base.$sm-width)
+        padding: 2rem
+        h2
+            font-size: 4rem
+    @media (min-width: base.$lg-width)
+        width: 70%
+//CONTACT FORM
+.contact-form, .contact-main
+    display: flex
+    flex-direction: column
+    gap: 2rem
+    .contact-form-item
+        position: relative
+    input, textarea
+        width: 100%
+        border-width: 0
+        outline: none
+        background-color: base.$darkgray
+        padding: 1rem
+        box-sizing: border-box
+
+    input::placeholder, textarea::placeholder, input[type="text"], textarea
+        color: base.$white
+        font-family: base.$body-font
+        font-size: 1rem
+        letter-spacing: 1px
+
+    textarea
+        height: 10rem
+        max-height: 100%
+    button
+        background-color: transparent
+        border-width: 1px
+        border-color: base.$white
+        color: base.$white
+        border-style: solid
+        letter-spacing: 1px
+        padding: 1rem
+        letter-spacing: 1px
+        width: 10rem
+        max-width: 50%
+        text-align: center
+        font-family: base.$body-font
+        opacity: 0.9
+        background: linear-gradient(to right, base.$pinkish 50%, transparent 50%)
+        background-size: 200% 100%
+        background-position: right bottom
+        transition: all 0.4s ease
+    label
+        position: absolute
+        color: base.$pinkish
+        opacity: 0.7
+//CONTACT MAIN
+.contact-main
+    grid-column: span 3
+.myemail-txt
+    color: base.$white
+    opacity: 0.5
+    font-size: 0.9rem
+    padding-top: 2rem

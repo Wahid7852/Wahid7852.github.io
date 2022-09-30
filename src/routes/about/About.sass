@@ -1,0 +1,121 @@
+@use  "../../core-ui/_base"
+//ABOUT
+
+.about, .about-main
+    padding: 1.5rem
+    display: flex
+    flex-direction: column
+    gap: 2rem
+    .download-btn
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: center
+        gap: 1rem
+        cursor: pointer
+        background-color: transparent
+        border-width: 1px
+        border-color: base.$pinkish
+        border-style: solid
+        letter-spacing: 1px
+        padding: 1rem 0.5rem
+        letter-spacing: 1px
+        width: 14rem
+        max-width: 70%
+        font-family: base.$body-font
+        color: base.$pinkish
+        opacity: 0.9
+        background: linear-gradient(to right, base.$white 50%, transparent 50%)
+        background-size: 200% 100%
+        background-position: right bottom
+        transition: all 0.4s ease
+        img
+            width: 1.5rem
+            height: 1.5rem
+
+    h2
+        font-size: 2.5rem
+        letter-spacing: 1px
+    p
+        font-size: 1.5rem
+    @media (min-width: base.$sm-width)
+
+        h2
+            font-size: 4rem
+    @media (min-width: base.$lg-width)
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        p
+            margin-top: 2rem
+.about
+    display: grid
+    grid-template-columns: 1fr
+
+.about-main
+    display: flex
+    flex-direction: column
+    padding: 2rem
+    grid-column: span 3
+
+//STACK SECTION
+.stack-section
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    column-gap: 2rem
+    row-gap: 1rem
+    margin-top: 5%
+    padding: 2rem
+
+    li
+        display: list-item
+        color: base.$white
+        font-family: base.$body-font
+        line-height: 1.5rem
+        text-align: left
+        font-weight: 100
+        font-size: 1.2rem
+    li::marker
+        content: counter(li) " > "
+        color: base.$pinkish
+        animation: color 0.3s ease-in-out infinite
+
+.stack-section
+    img
+        width: 3rem
+        max-width: 100%
+        cursor: pointer
+        transition: all 0.4s ease
+    @media (min-width: base.$sm-width)
+        gap: 1.5rem
+//WORK EXPERIENCE
+.work-experience, .education, .languages, .certification
+    margin-top: 5%
+    display: grid
+    grid-template-columns: 1fr
+    color: base.$white
+    gap: 2rem
+    .section-2
+        display: flex
+        flex-direction: row
+        gap: 0.5rem
+    h3
+        font-family: base.$body-font
+        font-size: 1.5rem
+    p
+        font-size: 1rem
+    .responsibilities, .education, .languages, .certification
+        font-size: 1rem
+        padding: 1rem
+
+        li
+            font-family: base.$body-font
+            line-height: 1.5rem
+            text-align: left
+            font-weight: 100
+        li::marker
+            content: counter(list-item) " › "
+            color: base.$pinkish
+            animation: color 0.3s ease-in-out infinite
+    a
+        color: base.$pinkish
+        font-family: base.$body-font

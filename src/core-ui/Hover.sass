@@ -1,0 +1,47 @@
+@use 'base'
+
+//HOVER
+@media (hover:hover)
+.header
+    a:hover
+        background-position: left bottom
+        border-color: transparent
+        transition: all 0.4s ease
+.contact-form
+    button:hover
+        background-position: left bottom
+        border-color: transparent
+        transition: all 0.4s ease
+.portfolio
+    .more-projects-btn:hover
+        background-position: left bottom
+        border-color: transparent
+        transition: all 0.4s ease
+.about-main
+    .download-btn:hover
+        background-position: left bottom
+        border-color: transparent
+        transition: all 0.4s ease
+.contact-main, .contact
+    .sendemail-btn:hover
+        background-position: left bottom
+        border-color: transparent
+        transition: all 0.4s ease
+.project-img:hover
+    opacity: 1
+    transition: all 0.4s ease
+//MENU HOVER EFFECTS
+.nav-link:hover, .nav-link.active:hover, .nav-link.main-active:hover
+    color: base.$pinkish
+    transition: all 0.4s ease
+    letter-spacing: 2px
+.nav-link:hover::before, .nav-link.active:hover::before, .nav-link.main-active:hover::before
+    content: "<"
+    color: base.$pinkish
+    display: inline
+    transition: all 0.4s ease
+.nav-link:hover::after, .nav-link.active:hover::after,.nav-link.main-active:hover::after
+    content: "/>"
+    color: base.$pinkish
+    display: inline
+    transition: all 0.4s ease
