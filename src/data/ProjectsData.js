@@ -65,7 +65,7 @@ const ProjectsData = [
     id: "pizza-time",
     img: PizzaTime,
     name: "Pizza Time",
-    stack: ["< HTML5 />", "< CSS3 />", "< React.js />"],
+    stack: ["< React.js />", "< CSS3 />", "< Leaflet API />"],
     src: "https://pizza-time-with-react.vercel.app/",
     source: "https://github.com/catherineisonline/pizza-time-with-react",
     description:
@@ -81,12 +81,11 @@ const ProjectsData = [
     description:
       "Travel with Catherine, a simple photography portfolio to show off some of my photography and code! Another great project to practice React and Tailwind.",
   },
-
   {
     id: "rest-countries",
     img: RestCountries,
     name: "Rest Countires",
-    stack: ["< CSS3 />", "< React.js />", "< RESTful API />"],
+    stack: ["< RESTful API />", "< CSS3 />", "< React.js />"],
     src: "https://catherineisonline.github.io/rest-countries/",
     source: "https://github.com/catherineisonline/rest-countries",
     description:
@@ -96,7 +95,7 @@ const ProjectsData = [
     id: "forkify",
     img: Forkify,
     name: "Forkify Recipes",
-    stack: ["< SCSS />", "< Vanilla JS />", "< RESTful API />"],
+    stack: ["< HTML5 />", "< SCSS />", "< Vanilla JS />", "< RESTful API />"],
     src: "https://forkify-recipe-api.vercel.app/",
     source: "https://github.com/catherineisonline/forkify",
     description:
@@ -112,7 +111,6 @@ const ProjectsData = [
     description:
       "Bankist is a fictional online bank and its goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging into your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
   },
-
   {
     id: "guess-my-number",
     img: GuessMyNumber,
