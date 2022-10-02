@@ -19,16 +19,6 @@ const ProjectsPreviewData = [
       "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
   },
   {
-    id: "travel-with-catherine",
-    img: TravelWithCatherine,
-    name: "Travel with Catherine",
-    stack: ["< React.js />", "< TypeScript />", "< Tailwind />"],
-    src: "https://catherineisonline.github.io/travel-with-catherine/",
-    source: "https://github.com/catherineisonline/travel-with-catherine",
-    description:
-      "Travel with Catherine, a simple photography portfolio to show off some of my photography and code! Another great project to practice React and Tailwind.",
-  },
-  {
     id: "rest-countries",
     img: RestCountries,
     name: "Rest Countires",
@@ -58,6 +48,16 @@ const ProjectsPreviewData = [
     description:
       "Bankist is a fictional online bank and its goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging into your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
   },
+  {
+    id: "guess-my-number",
+    img: GuessMyNumber,
+    name: "Guess My Number",
+    stack: ["<HTML5 />", "< CSS3 />", "< Vanilla JS />"],
+    src: "https://guess-my-number-now.vercel.app/",
+    source: "https://github.com/catherineisonline/guess-my-number",
+    description:
+      "This JavaScript number guessing game project's main goal is to code a game where the user must guess a randomly generated number from 1 to 20. Depending on the number input, the user receives different messages until they guess the secret number.",
+  },
 ];
 
 const ProjectsData = [
@@ -70,16 +70,6 @@ const ProjectsData = [
     source: "https://github.com/catherineisonline/pizza-time-with-react",
     description:
       "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
-  },
-  {
-    id: "travel-with-catherine",
-    img: TravelWithCatherine,
-    name: "Travel with Catherine",
-    stack: ["< React.js />", "< TypeScript />", "< Tailwind />"],
-    src: "https://catherineisonline.github.io/travel-with-catherine/",
-    source: "https://github.com/catherineisonline/travel-with-catherine",
-    description:
-      "Travel with Catherine, a simple photography portfolio to show off some of my photography and code! Another great project to practice React and Tailwind.",
   },
   {
     id: "rest-countries",
@@ -141,6 +131,16 @@ const ProjectsData = [
     source: "https://github.com/catherineisonline/edgy",
     description:
       "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner influencers. The website includes prices, a contact form, a blog, a careers page, and more.",
+  },
+  {
+    id: "travel-with-catherine",
+    img: TravelWithCatherine,
+    name: "Travel with Catherine",
+    stack: ["< React.js />", "< TypeScript />", "< Tailwind />"],
+    src: "https://catherineisonline.github.io/travel-with-catherine/",
+    source: "https://github.com/catherineisonline/travel-with-catherine",
+    description:
+      "Travel with Catherine, a simple photography portfolio to show off some of my photography and code! Another great project to practice React and Tailwind.",
   },
 ];
 
