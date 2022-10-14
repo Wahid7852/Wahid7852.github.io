@@ -153,11 +153,60 @@ const EducationData = [
 
 const CertificationData = [
   {
+    name: "HTML and CSS in depth",
+    source: "Meta",
+    date: "Issued Sept 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.coursera.org/account/accomplishments/certificate/9X4535T5LVXG",
+  },
+  {
+    name: "Interactivity with JavaScript",
+    source: "University of Michigan",
+    date: "Issued Sept 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.coursera.org/account/accomplishments/certificate/SVHSCXX3C5SY",
+  },
+  {
+    name: "React Basics",
+    source: "Meta",
+    date: "Issued Sept 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.coursera.org/account/accomplishments/certificate/47UVLTZJDQYT",
+  },
+  {
+    name: "Front End Development Libraries",
+    source: "freeCodeCamp",
+    date: "Issued Sept 2022 · No Expiration Date",
+    creditUrl:
+      "https://freecodecamp.org/certification/catherineisonline/front-end-development-libraries",
+  },
+  {
+    name: "Introduction to Front-End Development",
+    source: "Meta",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.coursera.org/account/accomplishments/certificate/9VXW6YH858J5",
+  },
+  {
     name: "Front-End Engineer Career Path",
     source: "Codecademy",
     date: "Issued Aug 2022 · No Expiration Date",
     creditUrl:
       "https://www.codecademy.com/profiles/catherineisonline/certificates/5f85dd867b67b60014ac9ea3",
+  },
+  {
+    name: "Programming with JavaScript",
+    source: "Meta",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.coursera.org/account/accomplishments/certificate/ZFLYLLM6GEBQ",
+  },
+  {
+    name: "Version Control",
+    source: "Meta",
+    date: "Issued Aug 2022 · No Expiration Date",
+    creditUrl:
+      "https://www.coursera.org/account/accomplishments/certificate/YC4U5PG6HCML",
   },
   {
     name: "Learn React",
