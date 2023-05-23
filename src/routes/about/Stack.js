@@ -7,16 +7,17 @@ const Stack = () => {
         Here are a few tools & technologies I’ve been working with:
       </h3>
       <ol className="stack-section ">
+        <li>Java</li>
+        <li>Python</li>
+        <li>C</li> 
+        <li>C++</li>
+        <li>Linux Kernel</li>
+        <li>Android Development</li>
         <li>HTML5</li>
         <li>CSS3</li>
-        <li>Tailwind</li>
-        <li>SCSS/SASS</li>
-        <li>JavaScript ES6+</li>
-        <li>React.js</li>
-        <li>RESTful API</li>
+        <li>JavaScript</li>
         <li>Github</li>
         <li>Git</li>
-        <li>Figma</li>
         <li>Visual Studio Code</li>
       </ol>
     </React.Fragment>

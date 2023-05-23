@@ -1,146 +1,102 @@
-import PizzaTime from "../assets/images/portfolio/PizzaTime.jpeg";
-import TravelWithCatherine from "../assets/images/portfolio/TravelWithCatherine.png";
-import GuessMyNumber from "../assets/images/portfolio/GuessMyNumber.jpeg";
-import Forkify from "../assets/images/portfolio/Forkify.jpeg";
-import Edgy from "../assets/images/portfolio/Edgy.jpeg";
-import RestCountries from "../assets/images/portfolio/RestCountries.jpeg";
-import Bankist from "../assets/images/portfolio/Bankist.jpeg";
-import FrontendMentorSolutions from "../assets/images/portfolio/FrontendMentorSolutions.jpeg";
+import tictactoe from "../assets/images/portfolio/tictactoe.png";
+import chatbot from "../assets/images/portfolio/chatbot.png";
+import OCR from "../assets/images/portfolio/OCR.png";
+import face_recog from "../assets/images/portfolio/face-recog.png";
+import nova from "../assets/images/portfolio/nova.png";
 
 const ProjectsPreviewData = [
   {
-    id: "pizza-time",
-    img: PizzaTime,
-    name: "Pizza Time",
-    stack: ["< React.js />", "< CSS3 />", "< Leaflet API />"],
-    src: "https://pizza-time-with-react.vercel.app/",
-    source: "https://github.com/catherineisonline/pizza-time-with-react",
+    id: "tic-tac-toe", 
+    img: tictactoe,
+    name: "Tic-Tac-Toe with AI",
+    stack: ["< C++/>", "< Minimax Algorithm />"],
+    source: "https://github.com/Wahid7852/my_projects/blob/main/C%2B%2B/Games/tic-tac_with_AI.cpp",
     description:
-      "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
+    "Tic-Tac-Toe is a game where two players take turns marking the spaces in a 3×3 grid with X and O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. This project is a C++ implementation of the game with an AI that uses the Minimax algorithm to determine the best move.",
+},
+{
+    id: "chatbot",
+    img: chatbot,
+    name: "Python Chatbot",
+    stack: ["<Python />"],
+    source: "https://github.com/Wahid7852/my_projects/tree/main/Python/PyProjects/chatbot",
+    description:
+      "A chatbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent. This project is a Python implementation of a chatbot that can answer basic questions and perform simple tasks.",
   },
   {
-    id: "rest-countries",
-    img: RestCountries,
-    name: "Rest Countires",
-    stack: ["< RESTful API />", "< CSS3 />", "< React.js />"],
-    src: "https://catherineisonline.github.io/rest-countries/",
-    source: "https://github.com/catherineisonline/rest-countries",
+    id: "face-recog",
+    img: face_recog,
+    name: "Face Recognition Based Attendance System",
+    stack: ["<Python />", "<OpenCV />"],
+    source: "https://github.com/Wahid7852/my_projects/tree/main/Python/PyProjects/face-recog",
     description:
-      "REST Countries is a project made with API which also has a color theme switcher feature. You can view the list of all countries and find a specific one via search or by filtering regions. By navigating to the individual country page, you are able to see more details about the country like native name and even border countries.",
+    "A face recognition based attendance system that can be used to mark attendance for a group of people. The system uses OpenCV to detect faces and recognize them using a pre-trained model. The attendance is marked in a CSV file.",
   },
   {
-    id: "forkify",
-    img: Forkify,
-    name: "Forkify Recipes",
-    stack: ["< HTML5 />", "< SCSS />", "< Vanilla JS />", "< RESTful API />"],
-    src: "https://forkify-recipe-api.vercel.app/",
-    source: "https://github.com/catherineisonline/forkify",
+    id: "text-from-video",
+    img: OCR,
+    name: "Text Extraction from Video",
+    stack: ["<Python />, <PyQt5 />"],
+    source: "https://github.com/Wahid7852/my_projects/tree/main/Python/PyProjects/text-from-video", 
     description:
-      "Forkify is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease servings as per his need and can view detailed directions.",
+    "A Python application that can extract text from a video and save it in a text file. The application uses PyQt5 for the GUI and OpenCV for video processing.",
   },
   {
-    id: "bankist",
-    img: Bankist,
-    name: "Bankist",
-    stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
-    src: "https://bankist-bank.vercel.app/",
-    source: "https://github.com/catherineisonline/bankist",
+    id: "Nova-Kernel",
+    img: nova,
+    name: "Nova Kernel",
+    stack: ["<C Programming/>", "< Linux Kernel />"],
+    source: "https://github.com/nova-kernels/kernel_xiaomi_mt6785",
     description:
-      "Bankist is a fictional online bank and its goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging into your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
-  },
-  {
-    id: "guess-my-number",
-    img: GuessMyNumber,
-    name: "Guess My Number",
-    stack: ["<HTML5 />", "< CSS3 />", "< Vanilla JS />"],
-    src: "https://guess-my-number-now.vercel.app/",
-    source: "https://github.com/catherineisonline/guess-my-number",
-    description:
-      "This JavaScript number guessing game project's main goal is to code a game where the user must guess a randomly generated number from 1 to 20. Depending on the number input, the user receives different messages until they guess the secret number.",
+      "Custom Linux Kernel for the Redmi Note 8 Pro, aiming for perfect blend of performance, battery, and stability",
   },
 ];
 
 const ProjectsData = [
   {
-    id: "pizza-time",
-    img: PizzaTime,
-    name: "Pizza Time",
-    stack: ["< React.js />", "< CSS3 />", "< Leaflet API />"],
-    src: "https://pizza-time-with-react.vercel.app/",
-    source: "https://github.com/catherineisonline/pizza-time-with-react",
+    id: "tic-tac-toe", 
+    img: tictactoe,
+    name: "Tic-Tac-Toe with AI",
+    stack: ["< C++/>", "< Minimax Algorithm />"],
+    source: "https://github.com/Wahid7852/my_projects/blob/main/C%2B%2B/Games/tic-tac_with_AI.cpp",
     description:
-      "Pizza Time is a pizza restaurant that offers an online menu with various options like pizza, sushi, or pasta. The idea of this project is to make it as close as possible to an actual food e-commerce website which has features like an online menu, order options, and so on.",
+    "Tic-Tac-Toe is a game where two players take turns marking the spaces in a 3×3 grid with X and O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. This project is a C++ implementation of the game with an AI that uses the Minimax algorithm to determine the best move.",
+},
+{
+    id: "chatbot",
+    img: chatbot,
+    name: "Python Chatbot",
+    stack: ["<Python />"],
+    source: "https://github.com/Wahid7852/my_projects/tree/main/Python/PyProjects/chatbot",
+    description:
+      "A chatbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent. This project is a Python implementation of a chatbot that can answer basic questions and perform simple tasks.",
   },
   {
-    id: "rest-countries",
-    img: RestCountries,
-    name: "Rest Countires",
-    stack: ["< RESTful API />", "< CSS3 />", "< React.js />"],
-    src: "https://catherineisonline.github.io/rest-countries/",
-    source: "https://github.com/catherineisonline/rest-countries",
+    id: "face-recog",
+    img: face_recog,
+    name: "Face Recognition Based Attendance System",
+    stack: ["<Python />", "<OpenCV />"],
+    source: "https://github.com/Wahid7852/my_projects/tree/main/Python/PyProjects/face-recog",
     description:
-      "REST Countries is a project made with API which also has a color theme switcher feature. You can view the list of all countries and find a specific one via search or by filtering regions. By navigating to the individual country page, you are able to see more details about the country like native name and even border countries.",
+    "A face recognition based attendance system that can be used to mark attendance for a group of people. The system uses OpenCV to detect faces and recognize them using a pre-trained model. The attendance is marked in a CSV file.",
   },
   {
-    id: "forkify",
-    img: Forkify,
-    name: "Forkify Recipes",
-    stack: ["< HTML5 />", "< SCSS />", "< Vanilla JS />", "< RESTful API />"],
-    src: "https://forkify-recipe-api.vercel.app/",
-    source: "https://github.com/catherineisonline/forkify",
+    id: "text-from-video",
+    img: OCR,
+    name: "Text Extraction from Video",
+    stack: ["<Python />, <PyQt5 />"],
+    source: "https://github.com/Wahid7852/my_projects/tree/main/Python/PyProjects/text-from-video", 
     description:
-      "Forkify is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease servings as per his need and can view detailed directions.",
+    "A Python application that can extract text from a video and save it in a text file. The application uses PyQt5 for the GUI and OpenCV for video processing.",
   },
   {
-    id: "bankist",
-    img: Bankist,
-    name: "Bankist",
-    stack: ["< Vanilla JS />", "< CSS3 />", "< HTML5 />"],
-    src: "https://bankist-bank.vercel.app/",
-    source: "https://github.com/catherineisonline/bankist",
+    id: "Nova-Kernel",
+    img: nova,
+    name: "Nova Kernel",
+    stack: ["<C Programming/>", "< Linux Kernel />"],
+    source: "https://github.com/nova-kernels/kernel_xiaomi_mt6785",
     description:
-      "Bankist is a fictional online bank and its goal is to practice DOM manipulation and user interaction. Bankist has an option to log in to the account and use different functionalities, almost like in an actual bank! By logging into your account you can transfer money to another account, take a loan or delete the account. Please check README for login info.",
-  },
-  {
-    id: "guess-my-number",
-    img: GuessMyNumber,
-    name: "Guess My Number",
-    stack: ["<HTML5 />", "< CSS3 />", "< Vanilla JS />"],
-    src: "https://guess-my-number-now.vercel.app/",
-    source: "https://github.com/catherineisonline/guess-my-number",
-    description:
-      "This JavaScript number guessing game project's main goal is to code a game where the user must guess a randomly generated number from 1 to 20. Depending on the number input, the user receives different messages until they guess the secret number.",
-  },
-  {
-    id: "frontend-mentor-solutions",
-    img: FrontendMentorSolutions,
-    name: "Frontend Mentor Solutions",
-    stack: ["< Vue.js />", "< Sass />"],
-    src: "https://catherineisonline.github.io/frontend-mentor-challenge-solutions/",
-    source:
-      "https://github.com/catherineisonline/frontend-mentor-challenge-solutions",
-    description:
-      "Frontend Mentor provides designs so that you can practice front-end skills using a real-life workflow. Challenges include designs (both mobile and desktop), assets, and style requirements. Here is the collection of all my Frontend Mentor challenge solutions. You can find links to their repositories, live demos, and direct links to challenges on Frontend Mentor.",
-  },
-  {
-    id: "edgy",
-    img: Edgy,
-    name: "Edgy",
-    stack: ["< Tailwind />", "< React.js />"],
-    src: "https://catherineisonline.github.io/edgy/",
-    source: "https://github.com/catherineisonline/edgy",
-    description:
-      "Edgy - is a social media marketing agency that offers Instagram growth services to businesses and beginner influencers. The website includes prices, a contact form, a blog, a careers page, and more.",
-  },
-  {
-    id: "travel-with-catherine",
-    img: TravelWithCatherine,
-    name: "Travel with Catherine",
-    stack: ["< React.js />", "< TypeScript />", "< Tailwind />"],
-    src: "https://catherineisonline.github.io/travel-with-catherine/",
-    source: "https://github.com/catherineisonline/travel-with-catherine",
-    description:
-      "Travel with Catherine, a simple photography portfolio to show off some of my photography and code! Another great project to practice React and Tailwind.",
+      "Custom Linux Kernel for the Redmi Note 8 Pro, aiming for perfect blend of performance, battery, and stability",
   },
 ];
 

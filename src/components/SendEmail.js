@@ -3,7 +3,7 @@ import Button from "../components/Button";
 const SendEmail = () => {
   function sendEmai() {
     window.open(
-      "mailto:ekaterine.jpg@gmail.com?subject=SendMail&body=Description"
+      "mailto:wahidzk0091@gmail.com?subject=SendMail&body=Description"
     );
   }
   return (

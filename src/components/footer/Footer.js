@@ -2,11 +2,10 @@ const Footer = () => {
   return (
     <article className="footer">
       <a
-        href="https://github.com/catherineisonline/"
+        href="https://github.com/Wahid7852/"
         target="_blank"
         rel="noreferrer"
       >
-        Designed & Built by Catherine &copy;2022
       </a>
     </article>
   );

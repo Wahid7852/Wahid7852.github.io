@@ -1,8 +1,7 @@
-<img src="https://github.com/catherineisonline/personal-portfolio/blob/main/public/project-preview.png?raw=true"><img/>
+<img src="/public/project-preview.png"><img/>
 
 # Personal Portfolio
-<a href="https://catherineisonline.github.io/personal-portfolio/">Portfolio</a> : A glimpse into my web development expertise. Explore a selection of interactive and responsive websites, crafted with the latest technologies such as ReactJS, Vanilla JavaScript, RESTful API, CSS, SASS, SCSS, Tailwind, and HTML. Showcasing my skills and experience in designing and developing top-notch web solutions.
-
+<a href="https://Wahid7852.is-a.dev/">Portfolio</a> : A glimpse into my world of code. I built this portfolio to showcase my projects and skills. I wanted to create a simple, clean design that would be easy to navigate and would allow the user to focus on the content. The template from [Ekaterine (Catherine) Mitagvaria](https://github.com/catherineisonline) seemed the best fit for my needs. I made some changes to the original template to make it my own. I also added a few of my own projects to the portfolio.
 
 ## Built With
 

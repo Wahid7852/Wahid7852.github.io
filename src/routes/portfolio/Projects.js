@@ -1,4 +1,3 @@
-import ExternalLink from "../../assets/images/project-external.png";
 import GithubRepo from "../../assets/images/project-source.png";
 import { ProjectsData } from "../../data/ProjectsData";
 
@@ -20,9 +19,6 @@ const Projects = () => {
               ))}
             </section>
             <section className="project-links">
-              <a href={project.src} target="_blank" rel="noreferrer">
-                <img src={ExternalLink} alt="External link icon"></img>
-              </a>
               <a href={project.source} target="_blank" rel="noreferrer">
                 <img src={GithubRepo} alt="Github icon"></img>
               </a>
