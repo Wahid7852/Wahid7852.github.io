@@ -1,4 +1,4 @@
-<img src="/public/project-preview.png"><img/>
+<img src="/public/preview.png"><img/>
 
 # Personal Portfolio
 <a href="https://Wahid7852.is-a.dev/">Portfolio</a> : A glimpse into my world of code. I built this portfolio to showcase my projects and skills. I wanted to create a simple, clean design that would be easy to navigate and would allow the user to focus on the content. The template from [Ekaterine (Catherine) Mitagvaria](https://github.com/catherineisonline) seemed the best fit for my needs. I made some changes to the original template to make it my own. I also added a few of my own projects to the portfolio.
