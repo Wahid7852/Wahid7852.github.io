@@ -26,14 +26,13 @@ const PortfolioPreview = () => {
           </span>
         </p>
       </section>
-      <ProjectsPreview />
       <section>
         <Link
           onClick={ResetLocation}
           className="more-projects-btn pink-text"
           to="/portfolio"
         >
-          More projects
+          My projects
         </Link>
       </section>
     </article>

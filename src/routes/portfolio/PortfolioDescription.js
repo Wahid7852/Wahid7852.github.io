@@ -3,18 +3,18 @@ const PortfolioDescription = () => {
     <section className="portfolio-text">
       <h2 className="title-font pink-text h2-tag">My Portfolio</h2>
       <p className="white-text p-tag">
-          I have spent a lot of time on different projects. I love doing it. 
-          Here are some of my favorite ones which sum up my knowledge. 
-          I have done many small projects from different courses and challenges 
-          to learn the basics. You can check them on my{" "}
+      "I've dedicated considerable time to various projects that I truly enjoy. Some of my favorites encapsulate my
+      knowledge well. While I've undertaken numerous small projects from diverse courses and challenges to grasp the
+      fundamentals. You can explore them on my {" "}
           <span>
             <a
               href="https://github.com/Wahid7852?tab=repositories"
+              // bold the text
               className="pink-text"
               target="_blank"
               rel="noreferrer"
             >
-              Github
+          Github
           </a>
         </span>
       </p>
