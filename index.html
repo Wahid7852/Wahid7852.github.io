@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index of /</title>
+    <style>
+        body { font-family: monospace; padding: 20px; }
+        a { text-decoration: none; color: blue; }
+        a:hover { text-decoration: underline; }
+        ul { list-style-type: none; padding-left: 0; }
+        li { margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Index of /</h1>
+    <hr>
+    <ul id="list">
+        <li><a href="#">../</a></li>
+    </ul>
+    <script>
+        // List of papers. Add more IDs here as needed.
+        const papers = ['p1', 'p2', 'p3', 'p4'];
+        
+        const list = document.getElementById('list');
+        
+        papers.forEach(p => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            
+            // Route to paper/*.pdf
+            a.href = `paper/${p}.pdf`;
+            
+            // Display as /p1, /p2, etc.
+            a.textContent = `/${p}`;
+            
+            // Obfuscate the downloaded filename
+            a.download = `doc_${Math.random().toString(36).substring(2, 12)}.pdf`;
+            
+            li.appendChild(a);
+            list.appendChild(li);
+        });
+    </script>
+</body>
+</html>
